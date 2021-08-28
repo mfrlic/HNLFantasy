@@ -1,0 +1,54 @@
+{
+    "teams": [
+        {
+            "name": "Hajduk",
+            "abbr": "HAJ",
+            "id": 2036
+        },
+        {
+            "name": "Osijek",
+            "abbr": "OSI",
+            "id": 2040
+        },
+        {
+            "name": "Lokomotiva",
+            "abbr": "LOK",
+            "id": 36246
+        },
+        {
+            "name": "Dinamo",
+            "abbr": "DZG",
+            "id": 2032
+        },
+        {
+            "name": "Rijeka",
+            "abbr": "RIJ",
+            "id": 2039
+        },
+        {
+            "name": "Gorica",
+            "abbr": "GOR",
+            "id": 43917
+        },
+        {
+            "name": "Istra",
+            "abbr": "IST",
+            "id": 25529
+        },
+        {
+            "name": "Slaven",
+            "abbr": "SLA",
+            "id": 2042
+        },
+        {
+            "name": "\u0160ibenik",
+            "abbr": "SIB",
+            "id": 2029
+        },
+        {
+            "name": "Dragovoljac",
+            "abbr": "HDR",
+            "id": 2028
+        }
+    ]
+}
