@@ -1,0 +1,4543 @@
+{
+    "lineups": {
+        "9578842": {
+            "home": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 7,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 284843,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 78,
+                    "substitute": false
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 314336,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 808503,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 798865,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 366848,
+                    "minutesPlayed": 15,
+                    "substitute": true
+                },
+                {
+                    "id": 948139,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 357590,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 798416,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 188335,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 149670,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 932608,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 883475,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 322417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 965019,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 1090010,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 826915,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 965022,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578840": {
+            "home": [
+                {
+                    "id": 798416,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 188335,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 149670,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 322417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 965019,
+                    "minutesPlayed": 73,
+                    "substitute": false
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 932608,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 916181,
+                    "minutesPlayed": 17,
+                    "substitute": true
+                },
+                {
+                    "id": 330035,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 98217,
+                    "minutesPlayed": 2,
+                    "substitute": true
+                },
+                {
+                    "id": 539260,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 855908,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 285991,
+                    "minutesPlayed": 63,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 1120914,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 814879,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 283851,
+                    "minutesPlayed": 63,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 27,
+                    "substitute": true
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 27,
+                    "substitute": true
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 902370,
+                    "minutesPlayed": 2,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578831": {
+            "home": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 0,
+                    "substitute": false
+                },
+                {
+                    "id": 359624,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 196094,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 946040,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880745,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 916183,
+                    "minutesPlayed": 60,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 882588,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 1126674,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 872262,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 283841,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 30,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 798416,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 188335,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 149670,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 932608,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 322417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 965019,
+                    "minutesPlayed": 59,
+                    "substitute": false
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 31,
+                    "substitute": true
+                },
+                {
+                    "id": 826915,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 916181,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                },
+                {
+                    "id": 539260,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                }
+            ]
+        },
+        "9653831": {
+            "home": [
+                {
+                    "id": 65221,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 188335,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 149670,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 932608,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 322417,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 330035,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 965019,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 62,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                },
+                {
+                    "id": 880748,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 916181,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 1090010,
+                    "minutesPlayed": 28,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 947899,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 966477,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 319181,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 848540,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 57989,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 879392,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 797920,
+                    "minutesPlayed": 54,
+                    "substitute": false
+                },
+                {
+                    "id": 897600,
+                    "minutesPlayed": 54,
+                    "substitute": false
+                },
+                {
+                    "id": 916186,
+                    "minutesPlayed": 16,
+                    "substitute": false
+                },
+                {
+                    "id": 319149,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 855970,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 70298,
+                    "minutesPlayed": 55,
+                    "substitute": true
+                },
+                {
+                    "id": 822505,
+                    "minutesPlayed": 36,
+                    "substitute": true
+                },
+                {
+                    "id": 1048837,
+                    "minutesPlayed": 36,
+                    "substitute": true
+                },
+                {
+                    "id": 879722,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578822": {
+            "home": [
+                {
+                    "id": 65221,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 880748,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 188335,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 322417,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 79,
+                    "substitute": false
+                },
+                {
+                    "id": 1090010,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 826915,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 970518,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                },
+                {
+                    "id": 883475,
+                    "minutesPlayed": 11,
+                    "substitute": true
+                },
+                {
+                    "id": 98217,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                },
+                {
+                    "id": 539260,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 190417,
+                    "minutesPlayed": 90,
+                    "saves": 6,
+                    "substitute": false
+                },
+                {
+                    "id": 148190,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70172,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 875633,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 555538,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839916,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 897603,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 134877,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 152402,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 836200,
+                    "minutesPlayed": 85,
+                    "substitute": false
+                },
+                {
+                    "id": 75509,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 921764,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 358598,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 51223,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 797775,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                },
+                {
+                    "id": 551406,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578844": {
+            "home": [
+                {
+                    "id": 244785,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 847785,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 233652,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 344797,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839917,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 117653,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 869746,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1009623,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 886227,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 995773,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 138451,
+                    "minutesPlayed": 60,
+                    "substitute": false
+                },
+                {
+                    "id": 990141,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 933787,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 108031,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 1034543,
+                    "minutesPlayed": 30,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 190417,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 173675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70172,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 875633,
+                    "minutesPlayed": 39,
+                    "substitute": false
+                },
+                {
+                    "id": 148190,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 51223,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 839916,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 134877,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 358598,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 75509,
+                    "minutesPlayed": 68,
+                    "substitute": false
+                },
+                {
+                    "id": 836200,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 897603,
+                    "minutesPlayed": 51,
+                    "substitute": true
+                },
+                {
+                    "id": 797775,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                },
+                {
+                    "id": 152402,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                },
+                {
+                    "id": 921764,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 551406,
+                    "minutesPlayed": 22,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578838": {
+            "home": [
+                {
+                    "id": 190417,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 173675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70172,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 875633,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 359802,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 51223,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 839916,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 134877,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 358598,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 551406,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 836200,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 148190,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 897603,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 797775,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 921764,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 75509,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 50516,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 283849,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 156990,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 1031476,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 50577,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 94239,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 921222,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 923888,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 283853,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 824165,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 873419,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 161431,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 280737,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 825675,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 943211,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                },
+                {
+                    "id": 1048593,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578833": {
+            "home": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 827346,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1133727,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 904669,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 849316,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 314336,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020922,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 85,
+                    "substitute": false
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 357590,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 979368,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 190417,
+                    "minutesPlayed": 90,
+                    "saves": 0,
+                    "substitute": false
+                },
+                {
+                    "id": 173675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70172,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 844594,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 359802,
+                    "minutesPlayed": 64,
+                    "substitute": false
+                },
+                {
+                    "id": 797775,
+                    "minutesPlayed": 64,
+                    "substitute": false
+                },
+                {
+                    "id": 897603,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 921764,
+                    "minutesPlayed": 78,
+                    "substitute": false
+                },
+                {
+                    "id": 358598,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 551406,
+                    "minutesPlayed": 78,
+                    "substitute": false
+                },
+                {
+                    "id": 836200,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 148190,
+                    "minutesPlayed": 26,
+                    "substitute": true
+                },
+                {
+                    "id": 75509,
+                    "minutesPlayed": 4,
+                    "substitute": true
+                },
+                {
+                    "id": 51223,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 134877,
+                    "minutesPlayed": 26,
+                    "substitute": true
+                },
+                {
+                    "id": 970516,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578829": {
+            "home": [
+                {
+                    "id": 190417,
+                    "minutesPlayed": 90,
+                    "saves": 0,
+                    "substitute": false
+                },
+                {
+                    "id": 875633,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 173675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 844594,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 344177,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 797775,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 897603,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 283855,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 358598,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 551406,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 66209,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 148190,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 134877,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 921764,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 75509,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 836200,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 920026,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 110436,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 285991,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 283851,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578845": {
+            "home": [
+                {
+                    "id": 190419,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 359358,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880742,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 73146,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 106869,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 357638,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 905063,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 895245,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 822462,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 795169,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 855970,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 796206,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                },
+                {
+                    "id": 841947,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 88645,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 44679,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 309306,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 65304,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 914217,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 876255,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 878101,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990148,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 858501,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 982466,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1083207,
+                    "minutesPlayed": 75,
+                    "substitute": false
+                },
+                {
+                    "id": 70623,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 283859,
+                    "minutesPlayed": 75,
+                    "substitute": false
+                },
+                {
+                    "id": 53862,
+                    "minutesPlayed": 15,
+                    "substitute": true
+                },
+                {
+                    "id": 1023376,
+                    "minutesPlayed": 15,
+                    "substitute": true
+                },
+                {
+                    "id": 890663,
+                    "minutesPlayed": 4,
+                    "substitute": true
+                },
+                {
+                    "id": 1102829,
+                    "minutesPlayed": 3,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578837": {
+            "home": [
+                {
+                    "id": 65304,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 914217,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 991290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 876255,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 878101,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990148,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 858501,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 982466,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1083207,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 70623,
+                    "minutesPlayed": 55,
+                    "substitute": false
+                },
+                {
+                    "id": 283859,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 53862,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 890663,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                },
+                {
+                    "id": 1009516,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                },
+                {
+                    "id": 1102829,
+                    "minutesPlayed": 35,
+                    "substitute": true
+                },
+                {
+                    "id": 970524,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 244785,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 847785,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1068519,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 233652,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839917,
+                    "minutesPlayed": 63,
+                    "substitute": false
+                },
+                {
+                    "id": 117653,
+                    "minutesPlayed": 63,
+                    "substitute": false
+                },
+                {
+                    "id": 869746,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 108031,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 1091633,
+                    "minutesPlayed": 63,
+                    "substitute": false
+                },
+                {
+                    "id": 845070,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 886227,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 344797,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 990141,
+                    "minutesPlayed": 27,
+                    "substitute": true
+                },
+                {
+                    "id": 1048923,
+                    "minutesPlayed": 27,
+                    "substitute": true
+                },
+                {
+                    "id": 933787,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 138451,
+                    "minutesPlayed": 27,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578828": {
+            "home": [
+                {
+                    "id": 65304,
+                    "minutesPlayed": 90,
+                    "saves": 0,
+                    "substitute": false
+                },
+                {
+                    "id": 914217,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 876255,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 878101,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990148,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 858501,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 982466,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 1083207,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 70623,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 283859,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 1022491,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 53862,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 1102829,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 970524,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 880749,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 948139,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 849316,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 904669,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020922,
+                    "minutesPlayed": 83,
+                    "substitute": false
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 55,
+                    "substitute": false
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 897602,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 849318,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 1048729,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 979368,
+                    "minutesPlayed": 35,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578823": {
+            "home": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 920026,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 110436,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1120914,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 1048780,
+                    "minutesPlayed": 62,
+                    "substitute": false
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 62,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 28,
+                    "substitute": true
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 28,
+                    "substitute": true
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 65304,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 914217,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 876255,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 878101,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990148,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 858501,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 982466,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 1083207,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70623,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 283859,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 357622,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 53862,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 1102829,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578818": {
+            "home": [
+                {
+                    "id": 65304,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 914217,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 876255,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 878101,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 858501,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 814889,
+                    "minutesPlayed": 57,
+                    "substitute": false
+                },
+                {
+                    "id": 982466,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 990148,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1083207,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 283859,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 70623,
+                    "minutesPlayed": 33,
+                    "substitute": true
+                },
+                {
+                    "id": 53862,
+                    "minutesPlayed": 2,
+                    "substitute": true
+                },
+                {
+                    "id": 1022491,
+                    "minutesPlayed": 2,
+                    "substitute": true
+                },
+                {
+                    "id": 1102829,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 65221,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 75417,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 880748,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 149670,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826020,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 916181,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 137635,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841985,
+                    "minutesPlayed": 73,
+                    "substitute": false
+                },
+                {
+                    "id": 94226,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 965019,
+                    "minutesPlayed": 81,
+                    "substitute": false
+                },
+                {
+                    "id": 827367,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 970518,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 883475,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 539260,
+                    "minutesPlayed": 17,
+                    "substitute": true
+                },
+                {
+                    "id": 1090010,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578836": {
+            "home": [
+                {
+                    "id": 190419,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 954836,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 44225,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 286917,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 106869,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 796206,
+                    "minutesPlayed": 85,
+                    "substitute": false
+                },
+                {
+                    "id": 841947,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 905063,
+                    "minutesPlayed": 33,
+                    "substitute": false
+                },
+                {
+                    "id": 895245,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 44679,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 795169,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 73146,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 880742,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 357638,
+                    "minutesPlayed": 57,
+                    "substitute": true
+                },
+                {
+                    "id": 826024,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 309306,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 885707,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 1103981,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 946040,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 588162,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 872262,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 880745,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 965818,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 882588,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 856905,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578827": {
+            "home": [
+                {
+                    "id": 190419,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 73146,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 44225,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 286917,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880742,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841947,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 796206,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 822462,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 795169,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 49351,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 88645,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 243713,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 44679,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 895245,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 309306,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 947986,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 50577,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 825675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 887799,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 156990,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 280737,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 943211,
+                    "minutesPlayed": 79,
+                    "substitute": false
+                },
+                {
+                    "id": 94239,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 974582,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 873419,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 107025,
+                    "minutesPlayed": 79,
+                    "substitute": false
+                },
+                {
+                    "id": 161431,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 921222,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 922945,
+                    "minutesPlayed": 11,
+                    "substitute": true
+                },
+                {
+                    "id": 923888,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 824165,
+                    "minutesPlayed": 11,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578824": {
+            "home": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 56,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 897602,
+                    "minutesPlayed": 56,
+                    "substitute": false
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 52,
+                    "substitute": false
+                },
+                {
+                    "id": 904669,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020922,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 979368,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 880749,
+                    "minutesPlayed": 34,
+                    "substitute": true
+                },
+                {
+                    "id": 978294,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                },
+                {
+                    "id": 948139,
+                    "minutesPlayed": 34,
+                    "substitute": true
+                },
+                {
+                    "id": 1048729,
+                    "minutesPlayed": 38,
+                    "substitute": true
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 190419,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 73146,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 954836,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 286917,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880742,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 796206,
+                    "minutesPlayed": 56,
+                    "substitute": false
+                },
+                {
+                    "id": 822462,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841947,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 243713,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 795169,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 49351,
+                    "minutesPlayed": 71,
+                    "substitute": false
+                },
+                {
+                    "id": 905063,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 826024,
+                    "minutesPlayed": 34,
+                    "substitute": true
+                },
+                {
+                    "id": 895245,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 309306,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 44679,
+                    "minutesPlayed": 19,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578817": {
+            "home": [
+                {
+                    "id": 190419,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 73146,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 795235,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 286917,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 942081,
+                    "minutesPlayed": 60,
+                    "substitute": false
+                },
+                {
+                    "id": 880742,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 895245,
+                    "minutesPlayed": 60,
+                    "substitute": false
+                },
+                {
+                    "id": 357638,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 822462,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 88645,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 49351,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 841947,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 243713,
+                    "minutesPlayed": 30,
+                    "substitute": true
+                },
+                {
+                    "id": 309306,
+                    "minutesPlayed": 30,
+                    "substitute": true
+                },
+                {
+                    "id": 795169,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                },
+                {
+                    "id": 44679,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 920026,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 110436,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 60,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1120914,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 69,
+                    "substitute": false
+                },
+                {
+                    "id": 1048780,
+                    "minutesPlayed": 69,
+                    "substitute": false
+                },
+                {
+                    "id": 285991,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 21,
+                    "substitute": true
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 30,
+                    "substitute": true
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 21,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578843": {
+            "home": [
+                {
+                    "id": 885719,
+                    "minutesPlayed": 90,
+                    "saves": 8,
+                    "substitute": false
+                },
+                {
+                    "id": 825675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 283849,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 161431,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 964991,
+                    "minutesPlayed": 52,
+                    "substitute": false
+                },
+                {
+                    "id": 921222,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 843251,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 316443,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 887798,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 824165,
+                    "minutesPlayed": 64,
+                    "substitute": false
+                },
+                {
+                    "id": 873419,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048593,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 94239,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 923888,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 107025,
+                    "minutesPlayed": 38,
+                    "substitute": true
+                },
+                {
+                    "id": 69373,
+                    "minutesPlayed": 26,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 947899,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 51157,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 966477,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 797920,
+                    "minutesPlayed": 52,
+                    "substitute": false
+                },
+                {
+                    "id": 319181,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 897600,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 879722,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048837,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 1098198,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 822505,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 319149,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048836,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 70298,
+                    "minutesPlayed": 38,
+                    "substitute": true
+                },
+                {
+                    "id": 995774,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 359028,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 888934,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578825": {
+            "home": [
+                {
+                    "id": 947986,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 283849,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 156990,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 974582,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 50577,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 943211,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 94239,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 770399,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 280737,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 107025,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 923888,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1031476,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 887799,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 824165,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 244785,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 847785,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 233652,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048923,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990141,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 869746,
+                    "minutesPlayed": 85,
+                    "substitute": false
+                },
+                {
+                    "id": 117653,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 108031,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 1034543,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 845070,
+                    "minutesPlayed": 67,
+                    "substitute": false
+                },
+                {
+                    "id": 886227,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839917,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 933787,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 1130127,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 995773,
+                    "minutesPlayed": 23,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578816": {
+            "home": [
+                {
+                    "id": 947986,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 50577,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 825675,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 161431,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 280737,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 887799,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 283853,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 943211,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 770399,
+                    "minutesPlayed": 53,
+                    "substitute": false
+                },
+                {
+                    "id": 923888,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 107025,
+                    "minutesPlayed": 75,
+                    "substitute": false
+                },
+                {
+                    "id": 1048593,
+                    "minutesPlayed": 37,
+                    "substitute": true
+                },
+                {
+                    "id": 887798,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 824165,
+                    "minutesPlayed": 15,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 359624,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 951182,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 588162,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 92980,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 83,
+                    "substitute": false
+                },
+                {
+                    "id": 882588,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 916183,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 880745,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 283841,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578841": {
+            "home": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 2,
+                    "substitute": false
+                },
+                {
+                    "id": 885707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 946040,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 588162,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 92980,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 882588,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 880745,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 754140,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 916183,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 856905,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 3,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 86,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 814879,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 855908,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 283851,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 110436,
+                    "minutesPlayed": 78,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 73,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                },
+                {
+                    "id": 882731,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 1048780,
+                    "minutesPlayed": 17,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578826": {
+            "home": [
+                {
+                    "id": 244785,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 847785,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1068519,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 233652,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 990141,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869746,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 117653,
+                    "minutesPlayed": 81,
+                    "substitute": false
+                },
+                {
+                    "id": 108031,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1034543,
+                    "minutesPlayed": 81,
+                    "substitute": false
+                },
+                {
+                    "id": 845070,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 886227,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 344797,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 933787,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                },
+                {
+                    "id": 995773,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 359624,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 946040,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 588162,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 92980,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 916183,
+                    "minutesPlayed": 64,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 81,
+                    "substitute": false
+                },
+                {
+                    "id": 196094,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 965818,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 26,
+                    "substitute": true
+                },
+                {
+                    "id": 283841,
+                    "minutesPlayed": 9,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578821": {
+            "home": [
+                {
+                    "id": 136705,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 359624,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 843153,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 946040,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 588162,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 92980,
+                    "minutesPlayed": 88,
+                    "substitute": false
+                },
+                {
+                    "id": 826023,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 882588,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 880751,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 359044,
+                    "minutesPlayed": 87,
+                    "substitute": false
+                },
+                {
+                    "id": 839388,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 196094,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                },
+                {
+                    "id": 880745,
+                    "minutesPlayed": 2,
+                    "substitute": true
+                },
+                {
+                    "id": 916183,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 127844,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 283841,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 947899,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 966477,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 319181,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 848540,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 57989,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 897600,
+                    "minutesPlayed": 82,
+                    "substitute": false
+                },
+                {
+                    "id": 879392,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 70298,
+                    "minutesPlayed": 55,
+                    "substitute": false
+                },
+                {
+                    "id": 822505,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 855970,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 879722,
+                    "minutesPlayed": 70,
+                    "substitute": false
+                },
+                {
+                    "id": 916186,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 797920,
+                    "minutesPlayed": 20,
+                    "substitute": true
+                },
+                {
+                    "id": 319149,
+                    "minutesPlayed": 35,
+                    "substitute": true
+                },
+                {
+                    "id": 359028,
+                    "minutesPlayed": 8,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578820": {
+            "home": [
+                {
+                    "id": 244785,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 847785,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 233652,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048923,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 839917,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 117653,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 869746,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 108031,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 886854,
+                    "minutesPlayed": 85,
+                    "substitute": false
+                },
+                {
+                    "id": 845070,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 886227,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 933787,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 1130127,
+                    "minutesPlayed": 11,
+                    "substitute": true
+                },
+                {
+                    "id": 995773,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                },
+                {
+                    "id": 1034543,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 827346,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 849316,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 54,
+                    "substitute": false
+                },
+                {
+                    "id": 904669,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 83487,
+                    "minutesPlayed": 54,
+                    "substitute": false
+                },
+                {
+                    "id": 951290,
+                    "minutesPlayed": 29,
+                    "substitute": false
+                },
+                {
+                    "id": 897602,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 1103103,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 36,
+                    "substitute": true
+                },
+                {
+                    "id": 1020922,
+                    "minutesPlayed": 36,
+                    "substitute": true
+                },
+                {
+                    "id": 979368,
+                    "minutesPlayed": 61,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578850": {
+            "home": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 814879,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1120914,
+                    "minutesPlayed": 61,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 73,
+                    "substitute": false
+                },
+                {
+                    "id": 285991,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 855908,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 283851,
+                    "minutesPlayed": 29,
+                    "substitute": true
+                },
+                {
+                    "id": 1048919,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 1048780,
+                    "minutesPlayed": 17,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 536820,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 284843,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 869707,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 849316,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 314336,
+                    "minutesPlayed": 89,
+                    "substitute": false
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 798865,
+                    "minutesPlayed": 72,
+                    "substitute": false
+                },
+                {
+                    "id": 886851,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 366848,
+                    "minutesPlayed": 1,
+                    "substitute": true
+                },
+                {
+                    "id": 979368,
+                    "minutesPlayed": 18,
+                    "substitute": true
+                },
+                {
+                    "id": 808503,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578832": {
+            "home": [
+                {
+                    "id": 51188,
+                    "minutesPlayed": 90,
+                    "saves": 4,
+                    "substitute": false
+                },
+                {
+                    "id": 285991,
+                    "minutesPlayed": 83,
+                    "substitute": false
+                },
+                {
+                    "id": 70423,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 55359,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 852471,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1120914,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 110436,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 845373,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 799037,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 51242,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 902370,
+                    "minutesPlayed": 76,
+                    "substitute": false
+                },
+                {
+                    "id": 814879,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 935054,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 855908,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                },
+                {
+                    "id": 283851,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 792156,
+                    "minutesPlayed": 14,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 947899,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 966477,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 319181,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 848540,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 57989,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 897600,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048837,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 822505,
+                    "minutesPlayed": 69,
+                    "substitute": false
+                },
+                {
+                    "id": 879722,
+                    "minutesPlayed": 64,
+                    "substitute": false
+                },
+                {
+                    "id": 319149,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 855970,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 879392,
+                    "minutesPlayed": 26,
+                    "substitute": true
+                },
+                {
+                    "id": 1127494,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 797920,
+                    "minutesPlayed": 21,
+                    "substitute": true
+                }
+            ]
+        },
+        "9578839": {
+            "home": [
+                {
+                    "id": 947899,
+                    "minutesPlayed": 90,
+                    "saves": 5,
+                    "substitute": false
+                },
+                {
+                    "id": 51157,
+                    "minutesPlayed": 62,
+                    "substitute": false
+                },
+                {
+                    "id": 966477,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 848540,
+                    "minutesPlayed": 80,
+                    "substitute": false
+                },
+                {
+                    "id": 57989,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 897600,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 879722,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1048837,
+                    "minutesPlayed": 73,
+                    "substitute": false
+                },
+                {
+                    "id": 797920,
+                    "minutesPlayed": 45,
+                    "substitute": false
+                },
+                {
+                    "id": 822505,
+                    "minutesPlayed": 74,
+                    "substitute": false
+                },
+                {
+                    "id": 319149,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 319181,
+                    "minutesPlayed": 28,
+                    "substitute": true
+                },
+                {
+                    "id": 995774,
+                    "minutesPlayed": 10,
+                    "substitute": true
+                },
+                {
+                    "id": 1127494,
+                    "minutesPlayed": 17,
+                    "substitute": true
+                },
+                {
+                    "id": 70298,
+                    "minutesPlayed": 45,
+                    "substitute": true
+                },
+                {
+                    "id": 359028,
+                    "minutesPlayed": 16,
+                    "substitute": true
+                }
+            ],
+            "away": [
+                {
+                    "id": 808495,
+                    "minutesPlayed": 90,
+                    "saves": 1,
+                    "substitute": false
+                },
+                {
+                    "id": 880749,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 366848,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 353290,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1020921,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 857492,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 808543,
+                    "minutesPlayed": 66,
+                    "substitute": false
+                },
+                {
+                    "id": 849316,
+                    "minutesPlayed": 84,
+                    "substitute": false
+                },
+                {
+                    "id": 314336,
+                    "minutesPlayed": 77,
+                    "substitute": false
+                },
+                {
+                    "id": 1020922,
+                    "minutesPlayed": 65,
+                    "substitute": false
+                },
+                {
+                    "id": 798865,
+                    "minutesPlayed": 90,
+                    "substitute": false
+                },
+                {
+                    "id": 1133727,
+                    "minutesPlayed": 12,
+                    "substitute": true
+                },
+                {
+                    "id": 357590,
+                    "minutesPlayed": 13,
+                    "substitute": true
+                },
+                {
+                    "id": 991390,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                },
+                {
+                    "id": 849318,
+                    "minutesPlayed": 25,
+                    "substitute": true
+                },
+                {
+                    "id": 808503,
+                    "minutesPlayed": 24,
+                    "substitute": true
+                }
+            ]
+        }
+    }
+}
