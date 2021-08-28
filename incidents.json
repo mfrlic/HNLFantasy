@@ -11,6 +11,8 @@
                 "goalscorer": 188335,
                 "assist": "N/A",
                 "time": 90,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -139,6 +141,8 @@
                 "goalscorer": 94226,
                 "assist": 322417,
                 "time": 48,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -151,6 +155,8 @@
                 "goalscorer": 841985,
                 "assist": 75417,
                 "time": 35,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -201,6 +207,8 @@
                 "goalscorer": 94226,
                 "assist": 827367,
                 "time": 87,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -243,6 +251,8 @@
                 "goalscorer": 359044,
                 "assist": 839388,
                 "time": 56,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -255,6 +265,8 @@
                 "goalscorer": 137635,
                 "assist": "N/A",
                 "time": 45,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -267,6 +279,8 @@
                 "goalscorer": 827367,
                 "assist": 94226,
                 "time": 31,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -371,6 +385,8 @@
                 "goalscorer": 330035,
                 "assist": 75417,
                 "time": 26,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -403,6 +419,8 @@
                 "goalscorer": 921764,
                 "assist": "N/A",
                 "time": 87,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -451,12 +469,16 @@
                 "goalscorer": 555538,
                 "assist": "N/A",
                 "time": 66,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 94226,
                 "assist": "N/A",
                 "time": 63,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -507,6 +529,8 @@
                 "goalscorer": 933787,
                 "assist": 995773,
                 "time": 90,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -525,6 +549,8 @@
                 "goalscorer": 886227,
                 "assist": 1009623,
                 "time": 83,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -665,6 +691,8 @@
                 "goalscorer": 836200,
                 "assist": 359802,
                 "time": 17,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -703,6 +731,8 @@
                 "goalscorer": 897603,
                 "assist": 358598,
                 "time": 75,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -733,6 +763,8 @@
                 "goalscorer": 536820,
                 "assist": "N/A",
                 "time": 55,
+                "isHome": true,
+                "incidentClass": "penalty",
                 "incidentType": "goal"
             },
             {
@@ -757,6 +789,8 @@
                 "goalscorer": 551406,
                 "assist": 358598,
                 "time": 13,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -857,6 +891,8 @@
                 "goalscorer": 88645,
                 "assist": 44679,
                 "time": 77,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -991,6 +1027,8 @@
                 "goalscorer": 283859,
                 "assist": 914217,
                 "time": 49,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1009,6 +1047,8 @@
                 "goalscorer": 982466,
                 "assist": "N/A",
                 "time": 45,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1021,6 +1061,8 @@
                 "goalscorer": 982466,
                 "assist": 878101,
                 "time": 31,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1039,6 +1081,8 @@
                 "goalscorer": 283859,
                 "assist": 878101,
                 "time": 20,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1071,6 +1115,8 @@
                 "goalscorer": 353290,
                 "assist": "N/A",
                 "time": 87,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1101,6 +1147,8 @@
                 "goalscorer": 1083207,
                 "assist": 1102829,
                 "time": 80,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1137,6 +1185,8 @@
                 "goalscorer": 878101,
                 "assist": "N/A",
                 "time": 54,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1149,6 +1199,8 @@
                 "goalscorer": 982466,
                 "assist": "N/A",
                 "time": 39,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1161,6 +1213,8 @@
                 "goalscorer": 1020922,
                 "assist": 869707,
                 "time": 14,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -1187,6 +1241,8 @@
                 "goalscorer": 70623,
                 "assist": "N/A",
                 "time": 89,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1199,6 +1255,8 @@
                 "goalscorer": 51242,
                 "assist": "N/A",
                 "time": 66,
+                "isHome": true,
+                "incidentClass": "penalty",
                 "incidentType": "goal"
             },
             {
@@ -1229,6 +1287,8 @@
                 "goalscorer": 990148,
                 "assist": 914217,
                 "time": 22,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -1297,24 +1357,32 @@
                 "goalscorer": 827367,
                 "assist": 94226,
                 "time": 55,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 283859,
                 "assist": 990148,
                 "time": 47,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 991290,
                 "assist": 990148,
                 "time": 42,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 827367,
                 "assist": 841985,
                 "time": 29,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -1395,6 +1463,8 @@
                 "goalscorer": 885707,
                 "assist": "N/A",
                 "time": 36,
+                "isHome": true,
+                "incidentClass": "ownGoal",
                 "incidentType": "goal"
             },
             {
@@ -1463,18 +1533,24 @@
                 "goalscorer": 88645,
                 "assist": "N/A",
                 "time": 59,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 107025,
                 "assist": "N/A",
                 "time": 43,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 873419,
                 "assist": "N/A",
                 "time": 38,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1493,12 +1569,16 @@
                 "goalscorer": 841947,
                 "assist": 795169,
                 "time": 32,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 873419,
                 "assist": 156990,
                 "time": 23,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1511,6 +1591,8 @@
                 "goalscorer": 286917,
                 "assist": 880742,
                 "time": 9,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -1555,6 +1637,8 @@
                 "goalscorer": 841947,
                 "assist": "N/A",
                 "time": 53,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1567,6 +1651,8 @@
                 "goalscorer": 49351,
                 "assist": 880742,
                 "time": 49,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1591,6 +1677,8 @@
                 "goalscorer": 954836,
                 "assist": 841947,
                 "time": 35,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1603,6 +1691,8 @@
                 "goalscorer": 841947,
                 "assist": 954836,
                 "time": 19,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -1623,6 +1713,8 @@
                 "goalscorer": 852471,
                 "assist": 799037,
                 "time": 84,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1677,6 +1769,8 @@
                 "goalscorer": 51242,
                 "assist": "N/A",
                 "time": 50,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1721,6 +1815,8 @@
                 "goalscorer": 1048593,
                 "assist": 923888,
                 "time": 76,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1751,6 +1847,8 @@
                 "goalscorer": 107025,
                 "assist": "N/A",
                 "time": 64,
+                "isHome": true,
+                "incidentClass": "penalty",
                 "incidentType": "goal"
             },
             {
@@ -1775,6 +1873,8 @@
                 "goalscorer": 822505,
                 "assist": 897600,
                 "time": 47,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1810,6 +1910,13 @@
         ],
         "9578825": [
             {
+                "player": 94239,
+                "saved": true,
+                "time": 90,
+                "isHome": true,
+                "incidentType": "penaltyMissed"
+            },
+            {
                 "player": 1130127,
                 "card": "yellow",
                 "time": 90,
@@ -1837,6 +1944,8 @@
                 "goalscorer": 107025,
                 "assist": 94239,
                 "time": 82,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1849,6 +1958,8 @@
                 "goalscorer": 107025,
                 "assist": 50577,
                 "time": 78,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1935,6 +2046,8 @@
                 "goalscorer": 887799,
                 "assist": 283853,
                 "time": 54,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -1947,6 +2060,8 @@
                 "goalscorer": 283853,
                 "assist": "N/A",
                 "time": 20,
+                "isHome": true,
+                "incidentClass": "penalty",
                 "incidentType": "goal"
             },
             {
@@ -2027,6 +2142,8 @@
                 "goalscorer": 127844,
                 "assist": 826023,
                 "time": 66,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2071,6 +2188,8 @@
                 "goalscorer": 886227,
                 "assist": 847785,
                 "time": 90,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2125,6 +2244,8 @@
                 "goalscorer": 839388,
                 "assist": 127844,
                 "time": 68,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2149,6 +2270,8 @@
                 "goalscorer": 359044,
                 "assist": "N/A",
                 "time": 19,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2181,6 +2304,8 @@
                 "goalscorer": 848540,
                 "assist": 822505,
                 "time": 87,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2223,12 +2348,16 @@
                 "goalscorer": 359044,
                 "assist": 916183,
                 "time": 69,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 839388,
                 "assist": 359624,
                 "time": 66,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2265,6 +2394,8 @@
                 "goalscorer": 826023,
                 "assist": 359044,
                 "time": 26,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2285,6 +2416,8 @@
                 "goalscorer": 1020922,
                 "assist": 869707,
                 "time": 90,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2345,6 +2478,8 @@
                 "goalscorer": 233652,
                 "assist": 108031,
                 "time": 45,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2375,12 +2510,16 @@
                 "goalscorer": 886227,
                 "assist": "N/A",
                 "time": 17,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 886227,
                 "assist": 869746,
                 "time": 10,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ],
@@ -2407,6 +2546,8 @@
                 "goalscorer": 314336,
                 "assist": "N/A",
                 "time": 85,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2487,6 +2628,8 @@
                 "goalscorer": 792156,
                 "assist": 51242,
                 "time": 87,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2559,6 +2702,8 @@
                 "goalscorer": 319149,
                 "assist": 966477,
                 "time": 33,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2573,12 +2718,16 @@
                 "goalscorer": 879722,
                 "assist": 319149,
                 "time": 90,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 70298,
                 "assist": 897600,
                 "time": 86,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2657,18 +2806,24 @@
                 "goalscorer": 319149,
                 "assist": 1048837,
                 "time": 61,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 879722,
                 "assist": 319149,
                 "time": 58,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 70298,
                 "assist": 319149,
                 "time": 52,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2681,6 +2836,8 @@
                 "goalscorer": 798865,
                 "assist": 857492,
                 "time": 45,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
@@ -2705,12 +2862,16 @@
                 "goalscorer": 808543,
                 "assist": 857492,
                 "time": 34,
+                "isHome": false,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             },
             {
                 "goalscorer": 822505,
                 "assist": 1048837,
                 "time": 1,
+                "isHome": true,
+                "incidentClass": "regular",
                 "incidentType": "goal"
             }
         ]
