@@ -483,10 +483,10 @@ def get_transfer_data():
 
 #find a way to fetch transfers and disable players not playing anymore
 
-# get_teams_data()
-# get_match_data()
-# get_incident_data()
-# get_player_data()
-# get_lineup_data()
-# get_point_data()
+get_teams_data()
+get_match_data()
+get_incident_data()
+get_player_data()
+get_lineup_data()
+get_point_data()
 # get_transfer_data()

@@ -82,6 +82,42 @@
             "id": 9578829
         },
         {
+            "homeTeam": "LOK",
+            "homeScore": 0,
+            "awayTeam": "GOR",
+            "awayScore": 1,
+            "startTimestamp": 1630169700,
+            "winnerCode": 2,
+            "id": 9578846
+        },
+        {
+            "homeTeam": "GOR",
+            "homeScore": 1,
+            "awayTeam": "SLA",
+            "awayScore": 0,
+            "startTimestamp": 1629564900,
+            "winnerCode": 1,
+            "id": 9578841
+        },
+        {
+            "homeTeam": "DZG",
+            "homeScore": 1,
+            "awayTeam": "GOR",
+            "awayScore": 0,
+            "startTimestamp": 1628877600,
+            "winnerCode": 1,
+            "id": 9578836
+        },
+        {
+            "homeTeam": "IST",
+            "homeScore": 1,
+            "awayTeam": "GOR",
+            "awayScore": 2,
+            "startTimestamp": 1627754400,
+            "winnerCode": 2,
+            "id": 9578826
+        },
+        {
             "homeTeam": "DZG",
             "homeScore": 1,
             "awayTeam": "LOK",
@@ -116,24 +152,6 @@
             "startTimestamp": 1627145700,
             "winnerCode": 2,
             "id": 9578823
-        },
-        {
-            "homeTeam": "LOK",
-            "homeScore": 2,
-            "awayTeam": "HAJ",
-            "awayScore": 2,
-            "startTimestamp": 1626540900,
-            "winnerCode": 3,
-            "id": 9578818
-        },
-        {
-            "homeTeam": "DZG",
-            "homeScore": 1,
-            "awayTeam": "GOR",
-            "awayScore": 0,
-            "startTimestamp": 1628877600,
-            "winnerCode": 1,
-            "id": 9578836
         },
         {
             "homeTeam": "DZG",
@@ -190,49 +208,22 @@
             "id": 9578816
         },
         {
-            "homeTeam": "GOR",
-            "homeScore": 1,
-            "awayTeam": "SLA",
-            "awayScore": 0,
-            "startTimestamp": 1629564900,
+            "homeTeam": "SIB",
+            "homeScore": 3,
+            "awayTeam": "IST",
+            "awayScore": 1,
+            "startTimestamp": 1630177200,
             "winnerCode": 1,
-            "id": 9578841
+            "id": 9578848
         },
         {
-            "homeTeam": "IST",
-            "homeScore": 1,
-            "awayTeam": "GOR",
+            "homeTeam": "SIB",
+            "homeScore": 6,
+            "awayTeam": "HDR",
             "awayScore": 2,
-            "startTimestamp": 1627754400,
-            "winnerCode": 2,
-            "id": 9578826
-        },
-        {
-            "homeTeam": "GOR",
-            "homeScore": 3,
-            "awayTeam": "SIB",
-            "awayScore": 1,
-            "startTimestamp": 1627153200,
+            "startTimestamp": 1629046500,
             "winnerCode": 1,
-            "id": 9578821
-        },
-        {
-            "homeTeam": "IST",
-            "homeScore": 3,
-            "awayTeam": "HDR",
-            "awayScore": 1,
-            "startTimestamp": 1626627300,
-            "winnerCode": 1,
-            "id": 9578820
-        },
-        {
-            "homeTeam": "SLA",
-            "homeScore": 0,
-            "awayTeam": "HDR",
-            "awayScore": 1,
-            "startTimestamp": 1630087200,
-            "winnerCode": 2,
-            "id": 9578850
+            "id": 9578839
         },
         {
             "homeTeam": "SLA",
@@ -244,13 +235,13 @@
             "id": 9578832
         },
         {
-            "homeTeam": "SIB",
-            "homeScore": 6,
+            "homeTeam": "SLA",
+            "homeScore": 0,
             "awayTeam": "HDR",
-            "awayScore": 2,
-            "startTimestamp": 1629046500,
-            "winnerCode": 1,
-            "id": 9578839
+            "awayScore": 1,
+            "startTimestamp": 1630087200,
+            "winnerCode": 2,
+            "id": 9578850
         }
     ]
 }

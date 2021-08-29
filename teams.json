@@ -11,6 +11,11 @@
             "id": 2040
         },
         {
+            "name": "Gorica",
+            "abbr": "GOR",
+            "id": 43917
+        },
+        {
             "name": "Lokomotiva",
             "abbr": "LOK",
             "id": 36246
@@ -26,9 +31,9 @@
             "id": 2039
         },
         {
-            "name": "Gorica",
-            "abbr": "GOR",
-            "id": 43917
+            "name": "\u0160ibenik",
+            "abbr": "SIB",
+            "id": 2029
         },
         {
             "name": "Istra",
@@ -39,11 +44,6 @@
             "name": "Slaven",
             "abbr": "SLA",
             "id": 2042
-        },
-        {
-            "name": "\u0160ibenik",
-            "abbr": "SIB",
-            "id": 2029
         },
         {
             "name": "Dragovoljac",
