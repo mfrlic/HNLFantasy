@@ -1,5 +1,6 @@
 import requests
 import json
+import urllib.request
 
 def get_teams_data():
     teams = { "teams": [] }
@@ -480,16 +481,28 @@ def get_final_data():
     for team in teams["teams"]:
         for player in players["players"][str(team["id"])]:
             totalPoints = 0
+            totalMinutes = 0
+            totalGoals = 0
+            totalAssists = 0
+            totalOwnGoals = 0
+            totalCleanSheets = 0
+            totalSaves = 0
+            totalSavedPens = 0
+            totalMissedPens = 0
+            totalYellowCards = 0
+            totalRedCards = 0
+
             playerMatches = []
             name = player["name"]
             shortName = player["shortName"]
             position = player["position"]
             country = player["country"]
             club = team["name"]
+            if club == "Šibenik":
+                club = "Sibenik"
             for data in points["points"][str(player["id"])]:
                 matchid = data["id"]
                 pointsTotal = data["pointsTotal"]
-                totalPoints += pointsTotal
                 minutesPlayed = data["minutesPlayed"]
                 minutesPlayedPoints = data["minutesPlayedPoints"]
                 goals = data["goals"]
@@ -512,14 +525,33 @@ def get_final_data():
                     savesPoints = data["savesPoints"]
                     penaltySaved = data["penaltiesSaved"]
                     penaltySavedPoints = data["penaltiesSavedPoints"]
+                    totalSaves += saves
+                    totalSavedPens += penaltySaved
+                    if cleanSheet:
+                        totalCleanSheets += 1
+
                 elif position == "D":
                     goalsConceded = data["goalsConceded"]
                     goalsConcededPoints = data["goalsConcededPoints"]
                     cleanSheet = data["cleanSheet"]
                     cleanSheetPoints = data["cleanSheetPoints"]
+                    if cleanSheet:
+                        totalCleanSheets += 1
+
                 elif position == "M":
                     cleanSheet = data["cleanSheet"]
                     cleanSheetPoints = data["cleanSheetPoints"]
+                    if cleanSheet:
+                        totalCleanSheets += 1
+
+                totalPoints += pointsTotal
+                totalMinutes += minutesPlayed
+                totalGoals += goals
+                totalAssists += assists
+                totalOwnGoals += totalOwnGoals
+                totalMissedPens += penaltyMissed
+                totalYellowCards += yellowCard
+                totalRedCards += redCard
 
                 for match in matches["matches"]:
                     if match["id"] == matchid:
@@ -538,10 +570,24 @@ def get_final_data():
                 elif position == "F":
                     playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
 
-            dataFinal["data"].append({ "name": name, "shortName": shortName, "position": position, "club": club, "country": country, "points": totalPoints, "matches": playerMatches })
+            dataFinal["data"].append({ "id": player["id"], "name": name, "shortName": shortName, "position": position, "club": club, "country": country, "points": totalPoints, "minutesPlayed": totalMinutes, "goals": totalGoals, "assists": totalAssists, "ownGoals": totalOwnGoals, "cleanSheets": totalCleanSheets, "saves": totalSaves, "savedPens": totalSavedPens, "missedPens": totalMissedPens, "yellowCard": totalYellowCards, "redCard": totalRedCards,  "matches": playerMatches })
 
-    with open("data.json", "w") as file:
+    with open("web/data.json", "w") as file:
         json.dump(dataFinal, file, indent=4)
+
+def get_player_images():
+    with open("teams.json") as file:
+        teams = json.load(file)
+
+    with open("players.json") as file:
+        players = json.load(file)
+
+    for team in teams["teams"]:
+        for player in players["players"][str(team["id"])]:
+            try:
+                urllib.request.urlretrieve("https://api.sofascore.com/api/v1/player/" + str(player["id"]) + "/image", "web/assets/img/players/" + str(player["id"]) + ".png")
+            except:
+                urllib.request.urlretrieve("https://www.sofascore.com/static/images/placeholders/player.png", "web/assets/img/players/" + str(player["id"]) + ".png")
 
 #find a way to fetch transfers and disable players not playing anymore
 
@@ -553,3 +599,4 @@ def get_final_data():
 # get_point_data()
 # get_transfer_data()
 get_final_data()
+# get_player_images()

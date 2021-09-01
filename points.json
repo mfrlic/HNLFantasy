@@ -10370,7 +10370,7 @@
             },
             {
                 "id": 9653831,
-                "pointsTotal": 3,
+                "pointsTotal": 2,
                 "minutesPlayed": 90,
                 "minutesPlayedPoints": 2,
                 "goals": 0,
@@ -10389,9 +10389,9 @@
                 "penaltiesSavedPoints": 0,
                 "penaltiesMissed": 0,
                 "penaltiesMissedPoints": 0,
-                "yellowCard": 0,
+                "yellowCard": 1,
                 "redCard": 0,
-                "cardPoints": 0
+                "cardPoints": -1
             },
             {
                 "id": 9578848,

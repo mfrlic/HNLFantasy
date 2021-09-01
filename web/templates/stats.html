@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>HNL Fantasy Liga</title>
+
+        <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="static/vendor/aos/aos.css" rel="stylesheet">
+        <link href="static/css/style.css" rel="stylesheet">
+
+        <script src="static/vendor/jquery/jquery.min.js"></script>
+        <script src='static/vendor/bootstrap/js/bootstrap.min.js'></script>
+        <script src="static/vendor/aos/aos.js"></script>
+        <script src="static/js/main.js"></script>
+        <style>
+            .scrolled-down{
+                transform: translateY(-100%); 
+                transition: all 0.3s ease-in-out;
+            }
+            .scrolled-up{
+                transform: translateY(0); 
+                transition: all 0.3s ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="autohide navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">HNL Fantasy Liga</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#"> Moj tim </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Transferi </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Privatne lige </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Tim tjedna </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Raspored </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-8">
+                <table class="table">
+                    <thead>
+                        <td>
+                        
+                        </td>
+                        <td>
+                            Ime
+                        </td>
+                        <td>
+                            Pozicija
+                        </td>
+                        <td>
+                            Klub
+                        </td>
+                        <td>
+                            Država
+                        </td>
+                        <td>
+                            Bodovi
+                        </td>
+                    </thead>
+                    {% for player in data %}
+                    <tr>
+                        <td>
+                            <img class="player-img" src="static/img/players/{{ player['id'] }}.png">
+                        </td>
+                        <td>
+                            {{ player["shortName"] }}
+                        </td>
+                        <td>
+                            {{ player["position"] }}
+                        </td>
+                        <td>
+                            <img src="static/img/clubs/{{ player['club'] }}.png">
+                        </td>
+                        <td>
+                            <img src="static/img/flags/{{ player['country'] }}.svg">
+                        </td>
+                        <td>
+                            {{ player["totalPoints"] }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                el_autohide = document.querySelector('.autohide');
+                if(el_autohide){
+                    var last_scroll_top = 0;
+                    window.addEventListener('scroll', function() {
+                        let scroll_top = window.scrollY;
+                        if(scroll_top < last_scroll_top) {
+                            el_autohide.classList.remove('scrolled-down');
+                            el_autohide.classList.add('scrolled-up');
+                        }
+                        else {
+                            el_autohide.classList.remove('scrolled-up');
+                            el_autohide.classList.add('scrolled-down');
+                        }
+                        last_scroll_top = scroll_top;
+                    }); 
+                }
+            }); 
+        </script>
+    </body>
+</html>
