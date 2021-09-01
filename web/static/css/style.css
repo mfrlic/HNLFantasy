@@ -11,14 +11,15 @@ img {
 }
 
 select {
-    margin: 50px;
-    width: 150px;
+    margin: 20px;
+    width: 200px;
     padding: 5px 35px 5px 5px;
     font-size: 16px;
     border: 1px solid #CCC;
+    border-radius: 0;
     height: 34px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(https://stackoverflow.com/favicon.ico) 96% / 15% no-repeat #EEE;
+    background: url(https://stackoverflow.com/favicon.ico) 96% / 15% no-repeat #fff;
 }
