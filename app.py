@@ -3,8 +3,15 @@ import json
 
 app = Flask(__name__)
 
-with open("players.json") as file:
-    players = json.load(file)
+with open("data.json") as file:
+    data = json.load(file)["data"]
+
+table = "<table><thead><td>Ime</td><td>Pozicija</td><td>Klub</td><td>Država</td><td>Bodovi</td></thead>"
+
+for player in data:
+    table += "<tr>" + "<td>" + player["name"] + "</td>" + "<td>" + player["position"] + "</td>"+ "<td>" + player["club"] + "</td>"+ "<td><img src='web/img/flags/" + player["country"].lower() + ".png'>" + "</td>" + "<td>" + str(player["points"]) + "</td>" + "</tr>"
+
+table += "</table>"
 
 @app.route('/')
 def hello():
@@ -24,7 +31,7 @@ def hello():
                 <script src="web/js/main.js"></script>
             </head>
             <body>
-                ''' + players + '''
+                ''' + table + '''
             </body>
         </html>
     '''

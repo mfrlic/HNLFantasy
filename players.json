@@ -1,5 +1,478 @@
 {
     "players": {
+        "2032": [
+            {
+                "name": "Bruno Petkovi\u0107",
+                "shortName": "B. Petkovi\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 309306
+            },
+            {
+                "name": "Lirim Kastrati",
+                "shortName": "L. Kastrati",
+                "position": "F",
+                "country": "XK",
+                "id": 895245
+            },
+            {
+                "name": "Duje \u010cop",
+                "shortName": "D. \u010cop",
+                "position": "F",
+                "country": "HR",
+                "id": 44679
+            },
+            {
+                "name": "Luka Menalo",
+                "shortName": "L. Menalo",
+                "position": "F",
+                "country": "BA",
+                "id": 795169
+            },
+            {
+                "name": "Komnen Andri\u0107",
+                "shortName": "K. Andri\u0107",
+                "position": "F",
+                "country": "RS",
+                "id": 314138
+            },
+            {
+                "name": "Deni Juri\u0107",
+                "shortName": "D. Juri\u0107",
+                "position": "F",
+                "country": "AU",
+                "id": 855970
+            },
+            {
+                "name": "Ivan La\u0107a",
+                "shortName": "I. La\u0107a",
+                "position": "F",
+                "country": "HR",
+                "id": 998510
+            },
+            {
+                "name": "Mislav Or\u0161i\u0107",
+                "shortName": "M. Or\u0161i\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 88645
+            },
+            {
+                "name": "Amer Gojak",
+                "shortName": "A. Gojak",
+                "position": "M",
+                "country": "BA",
+                "id": 357638
+            },
+            {
+                "name": "Luka Ivanu\u0161ec",
+                "shortName": "L. Ivanu\u0161ec",
+                "position": "M",
+                "country": "HR",
+                "id": 822462
+            },
+            {
+                "name": "Arijan Ademi",
+                "shortName": "A. Ademi",
+                "position": "M",
+                "country": "MK",
+                "id": 51168
+            },
+            {
+                "name": "Josip Mi\u0161i\u0107",
+                "shortName": "J. Mi\u0161i\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 243713
+            },
+            {
+                "name": "Bartol Franji\u0107",
+                "shortName": "B. Franji\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 880742
+            },
+            {
+                "name": "Marko Toli\u0107",
+                "shortName": "M. Toli\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 784673
+            },
+            {
+                "name": "Marko Bulat",
+                "shortName": "M. Bulat",
+                "position": "M",
+                "country": "HR",
+                "id": 905063
+            },
+            {
+                "name": "Dario \u0160piki\u0107",
+                "shortName": "D. \u0160piki\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 826024
+            },
+            {
+                "name": "Ivan \u0160arani\u0107",
+                "shortName": "I. \u0160arani\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 1090020
+            },
+            {
+                "name": "Bojan Kne\u017eevi\u0107",
+                "shortName": "B. Kne\u017eevi\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 326401
+            },
+            {
+                "name": "Sadegh Moharrami",
+                "shortName": "S. Moharrami",
+                "position": "D",
+                "country": "IR",
+                "id": 359358
+            },
+            {
+                "name": "Stefan Ristovski",
+                "shortName": "S. Ristovski",
+                "position": "D",
+                "country": "MK",
+                "id": 73146
+            },
+            {
+                "name": "Dino Peri\u0107",
+                "shortName": "D. Peri\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 286917
+            },
+            {
+                "name": "Rasmus Lauritsen",
+                "shortName": "R. Lauritsen",
+                "position": "D",
+                "country": "DK",
+                "id": 795235
+            },
+            {
+                "name": "K\u00e9vin Th\u00e9ophile-Catherine",
+                "shortName": "K. Th\u00e9ophile-Catherine",
+                "position": "D",
+                "country": "FR",
+                "id": 44225
+            },
+            {
+                "name": "Marin Leovac",
+                "shortName": "M. Leovac",
+                "position": "D",
+                "country": "HR",
+                "id": 37433
+            },
+            {
+                "name": "Fran\u00e7ois Moubandje",
+                "shortName": "F. Moubandje",
+                "position": "D",
+                "country": "CH",
+                "id": 106869
+            },
+            {
+                "name": "Emir Dilaver",
+                "shortName": "E. Dilaver",
+                "position": "D",
+                "country": "AT",
+                "id": 66171
+            },
+            {
+                "name": "Josip \u0160utalo",
+                "shortName": "J. \u0160utalo",
+                "position": "D",
+                "country": "HR",
+                "id": 954836
+            },
+            {
+                "name": "Stefan Mili\u0107",
+                "shortName": "S. Mili\u0107",
+                "position": "D",
+                "country": "ME",
+                "id": 888701
+            },
+            {
+                "name": "Daniel \u0160tefulj",
+                "shortName": "D. \u0160tefulj",
+                "position": "D",
+                "country": "HR",
+                "id": 942081
+            },
+            {
+                "name": "Marko Le\u0161kovi\u0107",
+                "shortName": "M. Le\u0161kovi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 93734
+            },
+            {
+                "name": "Dominik Livakovi\u0107",
+                "shortName": "D. Livakovi\u0107",
+                "position": "G",
+                "country": "HR",
+                "id": 190419
+            },
+            {
+                "name": "Danijel Zagorac",
+                "shortName": "D. Zagorac",
+                "position": "G",
+                "country": "HR",
+                "id": 65485
+            },
+            {
+                "name": "Dinko Horka\u0161",
+                "shortName": "D. Horka\u0161",
+                "position": "G",
+                "country": "HR",
+                "id": 855922
+            }
+        ],
+        "2039": [
+            {
+                "name": "Issah Abass",
+                "shortName": "I. Abass",
+                "position": "F",
+                "country": "GH",
+                "id": 873419
+            },
+            {
+                "name": "Josip Drmi\u0107",
+                "shortName": "J. Drmi\u0107",
+                "position": "F",
+                "country": "CH",
+                "id": 107025
+            },
+            {
+                "name": "Haris Vu\u010dki\u0107",
+                "shortName": "H. Vu\u010dki\u0107",
+                "position": "F",
+                "country": "SI",
+                "id": 69373
+            },
+            {
+                "name": "Prince Ampem",
+                "shortName": "P. Ampem",
+                "position": "F",
+                "country": "GH",
+                "id": 923888
+            },
+            {
+                "name": "Matej Vuk",
+                "shortName": "M. Vuk",
+                "position": "F",
+                "country": "HR",
+                "id": 887798
+            },
+            {
+                "name": "Jorge Obregon",
+                "shortName": "J. Obreg\u00f3n",
+                "position": "F",
+                "country": "CO",
+                "id": 824165
+            },
+            {
+                "name": "Bernard Karrica",
+                "shortName": "B. Karrica",
+                "position": "F",
+                "country": "AL",
+                "id": 997210
+            },
+            {
+                "name": "Daniel Iglesias",
+                "shortName": "D. Iglesias",
+                "position": "F",
+                "country": "ES",
+                "id": 227918
+            },
+            {
+                "name": "Lindon Selahi",
+                "shortName": "L. Selahi",
+                "position": "M",
+                "country": "AL",
+                "id": 922945
+            },
+            {
+                "name": "Robert Muri\u0107",
+                "shortName": "R. Muri\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 283853
+            },
+            {
+                "name": "Robert Mudra\u017eija",
+                "shortName": "R. Mudra\u017eija",
+                "position": "M",
+                "country": "HR",
+                "id": 770399
+            },
+            {
+                "name": "Ivan Lepinjica",
+                "shortName": "I. Lepinjica",
+                "position": "M",
+                "country": "HR",
+                "id": 887799
+            },
+            {
+                "name": "Adam Gnezda \u010cerin",
+                "shortName": "A. G. \u010cerin",
+                "position": "M",
+                "country": "SI",
+                "id": 843251
+            },
+            {
+                "name": "Adrian Liber",
+                "shortName": "A. Liber",
+                "position": "M",
+                "country": "HR",
+                "id": 943211
+            },
+            {
+                "name": "Denis Bu\u0161nja",
+                "shortName": "D. Bu\u0161nja",
+                "position": "M",
+                "country": "HR",
+                "id": 1048593
+            },
+            {
+                "name": "Domagoj Pavi\u010di\u0107",
+                "shortName": "D. Pavi\u010di\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 94239
+            },
+            {
+                "name": "Mato Stani\u0107",
+                "shortName": "M. Stani\u0107",
+                "position": "M",
+                "country": "BA",
+                "id": 921222
+            },
+            {
+                "name": "Hrvoje Smol\u010di\u0107",
+                "shortName": "H. Smol\u010di\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 974582
+            },
+            {
+                "name": "Darko Velkovski",
+                "shortName": "D. Velkovski",
+                "position": "D",
+                "country": "MK",
+                "id": 156990
+            },
+            {
+                "name": "Roko Juri\u0161i\u0107",
+                "shortName": "R. Juri\u0161i\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 929658
+            },
+            {
+                "name": "Ivan Tome\u010dak",
+                "shortName": "I. Tome\u010dak",
+                "position": "D",
+                "country": "HR",
+                "id": 50577
+            },
+            {
+                "name": "Filip Braut",
+                "shortName": "F. Braut",
+                "position": "D",
+                "country": "HR",
+                "id": 964991
+            },
+            {
+                "name": "Jo\u00e3o Escoval",
+                "shortName": "J. Escoval",
+                "position": "D",
+                "country": "PT",
+                "id": 825675
+            },
+            {
+                "name": "Nino Galovi\u0107",
+                "shortName": "N. Galovi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 161431
+            },
+            {
+                "name": "Anton Kre\u0161i\u0107",
+                "shortName": "A. Kre\u0161i\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 283849
+            },
+            {
+                "name": "Niko Gale\u0161i\u0107",
+                "shortName": "N. Gale\u0161i\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 1031476
+            },
+            {
+                "name": "Andrija Vuk\u010devi\u0107",
+                "shortName": "A. Vuk\u010devi\u0107",
+                "position": "D",
+                "country": "ME",
+                "id": 280737
+            },
+            {
+                "name": "Ivan Smol\u010di\u0107",
+                "shortName": "I. Smol\u010di\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 974581
+            },
+            {
+                "name": "Mikhail Merkulov",
+                "shortName": "M. Merkulov",
+                "position": "D",
+                "country": "RU",
+                "id": 316443
+            },
+            {
+                "name": "Nediljko Labrovi\u0107",
+                "shortName": "N. Labrovi\u0107",
+                "position": "G",
+                "country": "HR",
+                "id": 947986
+            },
+            {
+                "name": "Martin Zlomisli\u0107",
+                "shortName": "M. Zlomisli\u0107",
+                "position": "G",
+                "country": "BA",
+                "id": 885719
+            },
+            {
+                "name": "D\u00e1vid Nwolokor",
+                "shortName": "D. Nwolokor",
+                "position": "G",
+                "country": "NG",
+                "id": 790134
+            },
+            {
+                "name": "Andrej Prskalo",
+                "shortName": "A. Prskalo",
+                "position": "G",
+                "country": "HR",
+                "id": 50516
+            },
+            {
+                "name": "Jetmir Ameti",
+                "shortName": "J. Ameti",
+                "position": "N/A",
+                "country": "N/A",
+                "id": 1084020
+            }
+        ],
         "2036": [
             {
                 "name": "Marko Livaja",
@@ -65,6 +538,13 @@
                 "id": 965019
             },
             {
+                "name": "Nikola Kati\u0107",
+                "shortName": "N. Kati\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 831488
+            },
+            {
                 "name": "Mario \u010cui\u0107",
                 "shortName": "M. \u010cui\u0107",
                 "position": "M",
@@ -72,18 +552,18 @@
                 "id": 916181
             },
             {
-                "name": "Alexander Ka\u010danikli\u0107",
-                "shortName": "A. Ka\u010danikli\u0107",
-                "position": "M",
-                "country": "SE",
-                "id": 95572
-            },
-            {
                 "name": "Tonio Tekli\u0107",
                 "shortName": "T. Tekli\u0107",
                 "position": "M",
                 "country": "HR",
                 "id": 904669
+            },
+            {
+                "name": "Alexander Ka\u010danikli\u0107",
+                "shortName": "A. Ka\u010danikli\u0107",
+                "position": "M",
+                "country": "SE",
+                "id": 95572
             },
             {
                 "name": "Jani Atanasov",
@@ -100,6 +580,13 @@
                 "id": 137635
             },
             {
+                "name": "Marco Fossati",
+                "shortName": "M. Fossati",
+                "position": "M",
+                "country": "IT",
+                "id": 587906
+            },
+            {
                 "name": "Dino Skorup",
                 "shortName": "D. Skorup",
                 "position": "M",
@@ -112,13 +599,6 @@
                 "position": "D",
                 "country": "HU",
                 "id": 75417
-            },
-            {
-                "name": "Mario Vu\u0161kovi\u0107",
-                "shortName": "M. Vu\u0161kovi\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 880748
             },
             {
                 "name": "David \u010colina",
@@ -233,13 +713,6 @@
                 "position": "M",
                 "country": "HU",
                 "id": 134877
-            },
-            {
-                "name": "\u00c1d\u00e1m Gyurcs\u00f3",
-                "shortName": "\u00c1. Gyurcs\u00f3",
-                "position": "M",
-                "country": "HU",
-                "id": 81058
             },
             {
                 "name": "Merveil Ndockyt",
@@ -503,18 +976,18 @@
                 "id": 916183
             },
             {
-                "name": "Anthony Kalik",
-                "shortName": "A. Kalik",
-                "position": "M",
-                "country": "AU",
-                "id": 754140
-            },
-            {
                 "name": "Serge-Junior Martinsson Ngouali",
                 "shortName": "S. M. Ngouali",
                 "position": "M",
                 "country": "GA",
                 "id": 92980
+            },
+            {
+                "name": "Anthony Kalik",
+                "shortName": "A. Kalik",
+                "position": "M",
+                "country": "AU",
+                "id": 754140
             },
             {
                 "name": "Martin \u0160roler",
@@ -616,6 +1089,13 @@
             }
         ],
         "36246": [
+            {
+                "name": "Sandro Kulenovi\u0107",
+                "shortName": "S. Kulenovi\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 826026
+            },
             {
                 "name": "Francesco Tahiraj",
                 "shortName": "F. Tahiraj",
@@ -820,18 +1300,18 @@
                 "id": 878101
             },
             {
-                "name": "Hajdin Salihu",
-                "shortName": "H. Salihu",
-                "position": "D",
-                "country": "AL",
-                "id": 1005925
-            },
-            {
                 "name": "Mario Musa",
                 "shortName": "M. Musa",
                 "position": "D",
                 "country": "HR",
                 "id": 70638
+            },
+            {
+                "name": "Hajdin Salihu",
+                "shortName": "H. Salihu",
+                "position": "D",
+                "country": "AL",
+                "id": 1005925
             },
             {
                 "name": "Kemal Osmankovi\u0107",
@@ -869,6 +1349,13 @@
                 "id": 1003572
             },
             {
+                "name": "Ivan Nevisti\u0107",
+                "shortName": "I. Nevisti\u0107",
+                "position": "G",
+                "country": "HR",
+                "id": 357582
+            },
+            {
                 "name": "Luka Matasovi\u0107",
                 "shortName": "L. Matasovi\u0107",
                 "position": "G",
@@ -895,493 +1382,6 @@
                 "position": "N/A",
                 "country": "N/A",
                 "id": 1069274
-            }
-        ],
-        "2032": [
-            {
-                "name": "Bruno Petkovi\u0107",
-                "shortName": "B. Petkovi\u0107",
-                "position": "F",
-                "country": "HR",
-                "id": 309306
-            },
-            {
-                "name": "Lirim Kastrati",
-                "shortName": "L. Kastrati",
-                "position": "F",
-                "country": "XK",
-                "id": 895245
-            },
-            {
-                "name": "Sandro Kulenovi\u0107",
-                "shortName": "S. Kulenovi\u0107",
-                "position": "F",
-                "country": "HR",
-                "id": 826026
-            },
-            {
-                "name": "Duje \u010cop",
-                "shortName": "D. \u010cop",
-                "position": "F",
-                "country": "HR",
-                "id": 44679
-            },
-            {
-                "name": "Luka Menalo",
-                "shortName": "L. Menalo",
-                "position": "F",
-                "country": "BA",
-                "id": 795169
-            },
-            {
-                "name": "Komnen Andri\u0107",
-                "shortName": "K. Andri\u0107",
-                "position": "F",
-                "country": "RS",
-                "id": 314138
-            },
-            {
-                "name": "Deni Juri\u0107",
-                "shortName": "D. Juri\u0107",
-                "position": "F",
-                "country": "AU",
-                "id": 855970
-            },
-            {
-                "name": "Ivan La\u0107a",
-                "shortName": "I. La\u0107a",
-                "position": "F",
-                "country": "HR",
-                "id": 998510
-            },
-            {
-                "name": "Mislav Or\u0161i\u0107",
-                "shortName": "M. Or\u0161i\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 88645
-            },
-            {
-                "name": "Amer Gojak",
-                "shortName": "A. Gojak",
-                "position": "M",
-                "country": "BA",
-                "id": 357638
-            },
-            {
-                "name": "Luka Ivanu\u0161ec",
-                "shortName": "L. Ivanu\u0161ec",
-                "position": "M",
-                "country": "HR",
-                "id": 822462
-            },
-            {
-                "name": "Arijan Ademi",
-                "shortName": "A. Ademi",
-                "position": "M",
-                "country": "MK",
-                "id": 51168
-            },
-            {
-                "name": "Josip Mi\u0161i\u0107",
-                "shortName": "J. Mi\u0161i\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 243713
-            },
-            {
-                "name": "Kristijan Jaki\u0107",
-                "shortName": "K. Jaki\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 796206
-            },
-            {
-                "name": "Bartol Franji\u0107",
-                "shortName": "B. Franji\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 880742
-            },
-            {
-                "name": "Marko Toli\u0107",
-                "shortName": "M. Toli\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 784673
-            },
-            {
-                "name": "Marko Bulat",
-                "shortName": "M. Bulat",
-                "position": "M",
-                "country": "HR",
-                "id": 905063
-            },
-            {
-                "name": "Dario \u0160piki\u0107",
-                "shortName": "D. \u0160piki\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 826024
-            },
-            {
-                "name": "Ivan \u0160arani\u0107",
-                "shortName": "I. \u0160arani\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 1090020
-            },
-            {
-                "name": "Bojan Kne\u017eevi\u0107",
-                "shortName": "B. Kne\u017eevi\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 326401
-            },
-            {
-                "name": "Sadegh Moharrami",
-                "shortName": "S. Moharrami",
-                "position": "D",
-                "country": "IR",
-                "id": 359358
-            },
-            {
-                "name": "Stefan Ristovski",
-                "shortName": "S. Ristovski",
-                "position": "D",
-                "country": "MK",
-                "id": 73146
-            },
-            {
-                "name": "Dino Peri\u0107",
-                "shortName": "D. Peri\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 286917
-            },
-            {
-                "name": "Rasmus Lauritsen",
-                "shortName": "R. Lauritsen",
-                "position": "D",
-                "country": "DK",
-                "id": 795235
-            },
-            {
-                "name": "K\u00e9vin Th\u00e9ophile-Catherine",
-                "shortName": "K. Th\u00e9ophile-Catherine",
-                "position": "D",
-                "country": "FR",
-                "id": 44225
-            },
-            {
-                "name": "Marin Leovac",
-                "shortName": "M. Leovac",
-                "position": "D",
-                "country": "HR",
-                "id": 37433
-            },
-            {
-                "name": "Fran\u00e7ois Moubandje",
-                "shortName": "F. Moubandje",
-                "position": "D",
-                "country": "CH",
-                "id": 106869
-            },
-            {
-                "name": "Josip \u0160utalo",
-                "shortName": "J. \u0160utalo",
-                "position": "D",
-                "country": "HR",
-                "id": 954836
-            },
-            {
-                "name": "Stefan Mili\u0107",
-                "shortName": "S. Mili\u0107",
-                "position": "D",
-                "country": "ME",
-                "id": 888701
-            },
-            {
-                "name": "Daniel \u0160tefulj",
-                "shortName": "D. \u0160tefulj",
-                "position": "D",
-                "country": "HR",
-                "id": 942081
-            },
-            {
-                "name": "Marko Le\u0161kovi\u0107",
-                "shortName": "M. Le\u0161kovi\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 93734
-            },
-            {
-                "name": "Dominik Livakovi\u0107",
-                "shortName": "D. Livakovi\u0107",
-                "position": "G",
-                "country": "HR",
-                "id": 190419
-            },
-            {
-                "name": "Ivan Nevisti\u0107",
-                "shortName": "I. Nevisti\u0107",
-                "position": "G",
-                "country": "HR",
-                "id": 357582
-            },
-            {
-                "name": "Danijel Zagorac",
-                "shortName": "D. Zagorac",
-                "position": "G",
-                "country": "HR",
-                "id": 65485
-            },
-            {
-                "name": "Dinko Horka\u0161",
-                "shortName": "D. Horka\u0161",
-                "position": "G",
-                "country": "HR",
-                "id": 855922
-            }
-        ],
-        "2039": [
-            {
-                "name": "Issah Abass",
-                "shortName": "I. Abass",
-                "position": "F",
-                "country": "GH",
-                "id": 873419
-            },
-            {
-                "name": "Josip Drmi\u0107",
-                "shortName": "J. Drmi\u0107",
-                "position": "F",
-                "country": "CH",
-                "id": 107025
-            },
-            {
-                "name": "Haris Vu\u010dki\u0107",
-                "shortName": "H. Vu\u010dki\u0107",
-                "position": "F",
-                "country": "SI",
-                "id": 69373
-            },
-            {
-                "name": "Prince Ampem",
-                "shortName": "P. Ampem",
-                "position": "F",
-                "country": "GH",
-                "id": 923888
-            },
-            {
-                "name": "Matej Vuk",
-                "shortName": "M. Vuk",
-                "position": "F",
-                "country": "HR",
-                "id": 887798
-            },
-            {
-                "name": "Jorge Obregon",
-                "shortName": "J. Obreg\u00f3n",
-                "position": "F",
-                "country": "CO",
-                "id": 824165
-            },
-            {
-                "name": "Bernard Karrica",
-                "shortName": "B. Karrica",
-                "position": "F",
-                "country": "AL",
-                "id": 997210
-            },
-            {
-                "name": "Daniel Iglesias",
-                "shortName": "D. Iglesias",
-                "position": "F",
-                "country": "ES",
-                "id": 227918
-            },
-            {
-                "name": "Lindon Selahi",
-                "shortName": "L. Selahi",
-                "position": "M",
-                "country": "AL",
-                "id": 922945
-            },
-            {
-                "name": "Robert Muri\u0107",
-                "shortName": "R. Muri\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 283853
-            },
-            {
-                "name": "Robert Mudra\u017eija",
-                "shortName": "R. Mudra\u017eija",
-                "position": "M",
-                "country": "HR",
-                "id": 770399
-            },
-            {
-                "name": "Ivan Lepinjica",
-                "shortName": "I. Lepinjica",
-                "position": "M",
-                "country": "HR",
-                "id": 887799
-            },
-            {
-                "name": "Adam Gnezda \u010cerin",
-                "shortName": "A. G. \u010cerin",
-                "position": "M",
-                "country": "SI",
-                "id": 843251
-            },
-            {
-                "name": "Adrian Liber",
-                "shortName": "A. Liber",
-                "position": "M",
-                "country": "HR",
-                "id": 943211
-            },
-            {
-                "name": "Denis Bu\u0161nja",
-                "shortName": "D. Bu\u0161nja",
-                "position": "M",
-                "country": "HR",
-                "id": 1048593
-            },
-            {
-                "name": "Domagoj Pavi\u010di\u0107",
-                "shortName": "D. Pavi\u010di\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 94239
-            },
-            {
-                "name": "Mato Stani\u0107",
-                "shortName": "M. Stani\u0107",
-                "position": "M",
-                "country": "BA",
-                "id": 921222
-            },
-            {
-                "name": "Hrvoje Smol\u010di\u0107",
-                "shortName": "H. Smol\u010di\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 974582
-            },
-            {
-                "name": "Darko Velkovski",
-                "shortName": "D. Velkovski",
-                "position": "D",
-                "country": "MK",
-                "id": 156990
-            },
-            {
-                "name": "Roko Juri\u0161i\u0107",
-                "shortName": "R. Juri\u0161i\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 929658
-            },
-            {
-                "name": "Ivan Tome\u010dak",
-                "shortName": "I. Tome\u010dak",
-                "position": "D",
-                "country": "HR",
-                "id": 50577
-            },
-            {
-                "name": "Filip Braut",
-                "shortName": "F. Braut",
-                "position": "D",
-                "country": "HR",
-                "id": 964991
-            },
-            {
-                "name": "Jo\u00e3o Escoval",
-                "shortName": "J. Escoval",
-                "position": "D",
-                "country": "PT",
-                "id": 825675
-            },
-            {
-                "name": "Nino Galovi\u0107",
-                "shortName": "N. Galovi\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 161431
-            },
-            {
-                "name": "Anton Kre\u0161i\u0107",
-                "shortName": "A. Kre\u0161i\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 283849
-            },
-            {
-                "name": "Niko Gale\u0161i\u0107",
-                "shortName": "N. Gale\u0161i\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 1031476
-            },
-            {
-                "name": "Andrija Vuk\u010devi\u0107",
-                "shortName": "A. Vuk\u010devi\u0107",
-                "position": "D",
-                "country": "ME",
-                "id": 280737
-            },
-            {
-                "name": "Ivan Smol\u010di\u0107",
-                "shortName": "I. Smol\u010di\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 974581
-            },
-            {
-                "name": "Mikhail Merkulov",
-                "shortName": "M. Merkulov",
-                "position": "D",
-                "country": "RU",
-                "id": 316443
-            },
-            {
-                "name": "Nediljko Labrovi\u0107",
-                "shortName": "N. Labrovi\u0107",
-                "position": "G",
-                "country": "HR",
-                "id": 947986
-            },
-            {
-                "name": "Martin Zlomisli\u0107",
-                "shortName": "M. Zlomisli\u0107",
-                "position": "G",
-                "country": "BA",
-                "id": 885719
-            },
-            {
-                "name": "D\u00e1vid Nwolokor",
-                "shortName": "D. Nwolokor",
-                "position": "G",
-                "country": "NG",
-                "id": 790134
-            },
-            {
-                "name": "Andrej Prskalo",
-                "shortName": "A. Prskalo",
-                "position": "G",
-                "country": "HR",
-                "id": 50516
-            },
-            {
-                "name": "Jetmir Ameti",
-                "shortName": "J. Ameti",
-                "position": "N/A",
-                "country": "N/A",
-                "id": 1084020
             }
         ],
         "2029": [
@@ -1426,6 +1426,13 @@
                 "position": "M",
                 "country": "HR",
                 "id": 822505
+            },
+            {
+                "name": "Christopher Attys",
+                "shortName": "C. Attys",
+                "position": "M",
+                "country": "FR",
+                "id": 986356
             },
             {
                 "name": "Antonio Jakoli\u0161",
@@ -1512,13 +1519,6 @@
                 "id": 966477
             },
             {
-                "name": "Karlo Bili\u0107",
-                "shortName": "K. Bili\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 848540
-            },
-            {
                 "name": "Cole Dasilva",
                 "shortName": "C. Dasilva",
                 "position": "D",
@@ -1531,6 +1531,13 @@
                 "position": "D",
                 "country": "BA",
                 "id": 57989
+            },
+            {
+                "name": "Karlo Bili\u0107",
+                "shortName": "K. Bili\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 848540
             },
             {
                 "name": "Boris Pand\u017ea",
@@ -1831,13 +1838,6 @@
                 "id": 792156
             },
             {
-                "name": "T\u00f6rles Kn\u00f6ll",
-                "shortName": "T. Kn\u00f6ll",
-                "position": "F",
-                "country": "DE",
-                "id": 902370
-            },
-            {
                 "name": "Franck Etoundi",
                 "shortName": "F. Etoundi",
                 "position": "F",
@@ -1887,13 +1887,6 @@
                 "id": 935054
             },
             {
-                "name": "Karlo Luli\u0107",
-                "shortName": "K. Luli\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 283851
-            },
-            {
                 "name": "Mario Marina",
                 "shortName": "M. Marina",
                 "position": "M",
@@ -1908,18 +1901,18 @@
                 "id": 1105245
             },
             {
-                "name": "Blendi Morina",
-                "shortName": "B. Morina",
-                "position": "M",
-                "country": "XK",
-                "id": 1005914
-            },
-            {
                 "name": "Matija Vuic",
                 "shortName": "M. Vuic",
                 "position": "M",
                 "country": "HR",
                 "id": 1122503
+            },
+            {
+                "name": "Blendi Morina",
+                "shortName": "B. Morina",
+                "position": "M",
+                "country": "XK",
+                "id": 1005914
             },
             {
                 "name": "Vinko Soldo",
@@ -1957,18 +1950,18 @@
                 "id": 920026
             },
             {
-                "name": "Goran Paracki",
-                "shortName": "G. Paracki",
-                "position": "D",
-                "country": "HR",
-                "id": 70423
-            },
-            {
                 "name": "Filip Hlevnjak",
                 "shortName": "F. Hlevnjak",
                 "position": "D",
                 "country": "HR",
                 "id": 880740
+            },
+            {
+                "name": "Goran Paracki",
+                "shortName": "G. Paracki",
+                "position": "D",
+                "country": "HR",
+                "id": 70423
             },
             {
                 "name": "Tomislav Bo\u017ei\u0107",
@@ -2106,6 +2099,13 @@
                 "id": 536820
             },
             {
+                "name": "Benedik Mio\u010d",
+                "shortName": "B. Mio\u010d",
+                "position": "M",
+                "country": "HR",
+                "id": 314336
+            },
+            {
                 "name": "Bruno Karoglan",
                 "shortName": "B. Karoglan",
                 "position": "M",
@@ -2118,13 +2118,6 @@
                 "position": "M",
                 "country": "HR",
                 "id": 1062989
-            },
-            {
-                "name": "Benedik Mio\u010d",
-                "shortName": "B. Mio\u010d",
-                "position": "M",
-                "country": "HR",
-                "id": 314336
             },
             {
                 "name": "Luka Pasari\u010dek",
@@ -2197,18 +2190,18 @@
                 "id": 366848
             },
             {
-                "name": "Tomislav Valenti\u0107",
-                "shortName": "T. Valenti\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 869707
-            },
-            {
                 "name": "Ricardo Bagadur",
                 "shortName": "R. Bagadur",
                 "position": "D",
                 "country": "HR",
                 "id": 353290
+            },
+            {
+                "name": "Tomislav Valenti\u0107",
+                "shortName": "T. Valenti\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 869707
             },
             {
                 "name": "Stipe Vuliki\u0107",

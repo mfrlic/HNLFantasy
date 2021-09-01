@@ -41,38 +41,6 @@ def get_match_data():
     with open("matches.json", "w") as file:
         json.dump(matches, file, indent=4)
 
-def get_incident_data():
-    incidents = { "incidents" : {} }
-    
-    with open("matches.json") as file:
-        matches = json.load(file)
-
-    for match in matches["matches"]:
-        data = requests.get("https://api.sofascore.com/api/v1/event/" + str(match["id"]) + "/incidents").json()["incidents"]
-        incidents["incidents"][str(match["id"])] = []
-        for incident in data:
-            if incident["incidentType"] == "period":
-                pass
-            elif incident["incidentType"] == "substitution":
-                incidents["incidents"][str(match["id"])].append({ "playerIn": incident["playerIn"]["id"], "playerOut": incident["playerOut"]["id"], "time": incident["time"], "incidentType": "substitution" })
-            elif incident["incidentType"] == "card":
-                incidents["incidents"][str(match["id"])].append({ "player": incident["player"]["id"], "card": incident["incidentClass"], "time": incident["time"], "incidentType": "card" })
-            elif incident["incidentType"] == "goal":
-                try:
-                    assist = incident["assist1"]["id"]
-                except:
-                    assist = "N/A"
-                incidents["incidents"][str(match["id"])].append({ "goalscorer": incident["player"]["id"], "assist": assist, "time": incident["time"], "isHome": incident["isHome"], "incidentClass": incident["incidentClass"], "incidentType": "goal" })
-            elif incident["incidentType"] == "inGamePenalty":
-                if incident["description"] == "Goalkeeper save": 
-                    saved = True
-                else:
-                    saved = False
-                incidents["incidents"][str(match["id"])].append({ "player": incident["player"]["id"], "saved": saved, "time": incident["time"], "isHome": incident["isHome"], "incidentType": "penaltyMissed" })
-
-    with open("incidents.json", "w") as file:
-        json.dump(incidents, file, indent=4)
-
 def get_player_data():
     players = { "players" : {} }
     
@@ -102,11 +70,45 @@ def get_player_data():
     with open("players.json", "w") as file:
         json.dump(players, file, indent=4)
 
-def get_lineup_data():
-    lineups = { "lineups": {} } 
+def get_point_data():
+    points = {"points": {}}
+
+    with open("teams.json") as file:
+        teams = json.load(file)
+
+    with open("players.json") as file:
+        players = json.load(file)
 
     with open("matches.json") as file:
         matches = json.load(file)
+
+    incidents = { "incidents" : {} }
+
+    for match in matches["matches"]:
+        data = requests.get("https://api.sofascore.com/api/v1/event/" + str(match["id"]) + "/incidents").json()["incidents"]
+        incidents["incidents"][str(match["id"])] = []
+        for incident in data:
+            if incident["incidentType"] == "period":
+                pass
+            elif incident["incidentType"] == "substitution":
+                incidents["incidents"][str(match["id"])].append({ "playerIn": incident["playerIn"]["id"], "playerOut": incident["playerOut"]["id"], "time": incident["time"], "incidentType": "substitution" })
+            elif incident["incidentType"] == "card":
+                incidents["incidents"][str(match["id"])].append({ "player": incident["player"]["id"], "card": incident["incidentClass"], "time": incident["time"], "incidentType": "card" })
+            elif incident["incidentType"] == "goal":
+                try:
+                    assist = incident["assist1"]["id"]
+                except:
+                    assist = "N/A"
+                incidents["incidents"][str(match["id"])].append({ "goalscorer": incident["player"]["id"], "assist": assist, "time": incident["time"], "isHome": incident["isHome"], "incidentClass": incident["incidentClass"], "incidentType": "goal" })
+            elif incident["incidentType"] == "inGamePenalty":
+                if incident["description"] == "Goalkeeper save": 
+                    saved = True
+                else:
+                    saved = False
+                incidents["incidents"][str(match["id"])].append({ "player": incident["player"]["id"], "saved": saved, "time": incident["time"], "isHome": incident["isHome"], "incidentType": "penaltyMissed" })
+
+
+    lineups = { "lineups": {} }
 
     for match in matches["matches"]:
         data = requests.get("https://api.sofascore.com/api/v1/event/" + str(match["id"]) + "/lineups").json()
@@ -155,27 +157,6 @@ def get_lineup_data():
                                                                         "minutesPlayed": minutesPlayed, 
                                                                         "substitute": player["substitute"] })
 
-    with open("lineups.json", "w") as file:
-        json.dump(lineups, file, indent=4)
-
-def get_point_data():
-    points = {"points": {}}
-
-    with open("teams.json") as file:
-        teams = json.load(file)
-
-    with open("players.json") as file:
-        players = json.load(file)
-
-    with open("matches.json") as file:
-        matches = json.load(file)
-
-    with open("incidents.json") as file:
-        incidents = json.load(file)
-
-    with open("lineups.json") as file:
-        lineups = json.load(file)
-
     for team in teams["teams"]:
         for player in players["players"][str(team["id"])]:
             points["points"][player["id"]] = []
@@ -223,7 +204,7 @@ def get_point_data():
 
                         if appearance["minutesPlayed"] >= 60:
                             minutesPlayedPoints = 2
-                        elif 0 > appearance["minutesPlayed"] < 60:
+                        elif 0 < appearance["minutesPlayed"] < 60:
                             minutesPlayedPoints = 1
                         else:
                             minutesPlayedPoints = 0
@@ -314,18 +295,18 @@ def get_point_data():
                                 savesPoints = 15
                             penaltySavedPoints = penaltySaved * 5
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + savesPoints + goalsConcededPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints + penaltySavedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "saves": saves, "savesPoints": savesPoints, "penaltiesSaved": penaltySaved, "penaltiesSavedPoints": penaltySavedPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "saves": saves, "savesPoints": savesPoints, "penaltiesSaved": penaltySaved, "penaltiesSavedPoints": penaltySavedPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "D":
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + goalsConcededPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "M":
                             goalsPoints = goals * 5
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "F":
                             goalsPoints = goals * 4
                             pointsTotal = minutesPlayedPoints + goalsPoints + assistsPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
 
 
                 for appearance in lineups["lineups"][str(match["id"])]["away"]:
@@ -371,7 +352,7 @@ def get_point_data():
 
                         if appearance["minutesPlayed"] >= 60:
                             minutesPlayedPoints = 2
-                        elif 0 > appearance["minutesPlayed"] < 60:
+                        elif 0 < appearance["minutesPlayed"] < 60:
                             minutesPlayedPoints = 1
                         else:
                             minutesPlayedPoints = 0
@@ -461,18 +442,18 @@ def get_point_data():
                                 savesPoints = 15
                             penaltySavedPoints = penaltySaved * 5
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + savesPoints + goalsConcededPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints + penaltySavedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "saves": saves, "savesPoints": savesPoints, "penaltiesSaved": penaltySaved, "penaltiesSavedPoints": penaltySavedPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append ({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "saves": saves, "savesPoints": savesPoints, "penaltiesSaved": penaltySaved, "penaltiesSavedPoints": penaltySavedPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "D":
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + goalsConcededPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "M":
                             goalsPoints = goals * 5
                             pointsTotal = minutesPlayedPoints + cleanSheetPoints + goalsPoints + assistsPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
                         elif player["position"] == "F":
                             goalsPoints = goals * 4
                             pointsTotal = minutesPlayedPoints + goalsPoints + assistsPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
-                            points["points"][player["id"]].append({ match["id"]: { "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints } })
+                            points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
 
 
     with open("points.json", "w") as file:
@@ -481,12 +462,94 @@ def get_point_data():
 def get_transfer_data():
     pass
 
+def get_final_data():
+    with open("teams.json") as file:
+        teams = json.load(file)
+
+    with open("players.json") as file:
+        players = json.load(file)
+
+    with open("matches.json") as file:
+        matches = json.load(file)
+
+    with open("points.json") as file:
+        points = json.load(file)
+
+    dataFinal = {"data": []}
+
+    for team in teams["teams"]:
+        for player in players["players"][str(team["id"])]:
+            totalPoints = 0
+            playerMatches = []
+            name = player["name"]
+            shortName = player["shortName"]
+            position = player["position"]
+            country = player["country"]
+            club = team["name"]
+            for data in points["points"][str(player["id"])]:
+                matchid = data["id"]
+                pointsTotal = data["pointsTotal"]
+                totalPoints += pointsTotal
+                minutesPlayed = data["minutesPlayed"]
+                minutesPlayedPoints = data["minutesPlayedPoints"]
+                goals = data["goals"]
+                goalsPoints = data["goalsPoints"]
+                assists = data["assists"]
+                assistsPoints = data["assistsPoints"]
+                ownGoals = data["ownGoals"]
+                ownGoalsPoints = data["ownGoalsPoints"]
+                penaltyMissed = data["penaltiesMissed"]
+                penaltyMissedPoints = data["penaltiesMissedPoints"]
+                yellowCard = data["yellowCard"]
+                redCard = data["redCard"]
+                cardPoints = data["cardPoints"]
+                if position == "G": 
+                    goalsConceded = data["goalsConceded"]
+                    goalsConcededPoints = data["goalsConcededPoints"]
+                    cleanSheet = data["cleanSheet"]
+                    cleanSheetPoints = data["cleanSheetPoints"]
+                    saves = data["saves"]
+                    savesPoints = data["savesPoints"]
+                    penaltySaved = data["penaltiesSaved"]
+                    penaltySavedPoints = data["penaltiesSavedPoints"]
+                elif position == "D":
+                    goalsConceded = data["goalsConceded"]
+                    goalsConcededPoints = data["goalsConcededPoints"]
+                    cleanSheet = data["cleanSheet"]
+                    cleanSheetPoints = data["cleanSheetPoints"]
+                elif position == "M":
+                    cleanSheet = data["cleanSheet"]
+                    cleanSheetPoints = data["cleanSheetPoints"]
+
+                for match in matches["matches"]:
+                    if match["id"] == matchid:
+                        homeTeam = match["homeTeam"]
+                        homeScore = match["homeScore"]
+                        awayTeam = match["awayTeam"]
+                        awayScore = match["awayScore"]
+                        winnerCode = match["winnerCode"]
+                        startTimestamp = match["startTimestamp"]
+                if position == "G":
+                    playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "saves": saves, "savesPoints": savesPoints, "penaltiesSaved": penaltySaved, "penaltiesSavedPoints": penaltySavedPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
+                elif position == "D":
+                    playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "goalsConcededPoints": goalsConcededPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
+                elif position == "M":
+                    playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "cleanSheet": cleanSheet, "cleanSheetPoints": cleanSheetPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
+                elif position == "F":
+                    playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
+
+            dataFinal["data"].append({ "name": name, "shortName": shortName, "position": position, "club": club, "country": country, "points": totalPoints, "matches": playerMatches })
+
+    with open("data.json", "w") as file:
+        json.dump(dataFinal, file, indent=4)
+
 #find a way to fetch transfers and disable players not playing anymore
 
-get_teams_data()
-get_match_data()
-get_incident_data()
-get_player_data()
-get_lineup_data()
-get_point_data()
+# get_teams_data()
+# get_match_data()
+# get_incident_data()
+# get_player_data()
+# get_lineup_data()
+# get_point_data()
 # get_transfer_data()
+get_final_data()

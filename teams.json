@@ -1,6 +1,16 @@
 {
     "teams": [
         {
+            "name": "Dinamo",
+            "abbr": "DZG",
+            "id": 2032
+        },
+        {
+            "name": "Rijeka",
+            "abbr": "RIJ",
+            "id": 2039
+        },
+        {
             "name": "Hajduk",
             "abbr": "HAJ",
             "id": 2036
@@ -19,16 +29,6 @@
             "name": "Lokomotiva",
             "abbr": "LOK",
             "id": 36246
-        },
-        {
-            "name": "Dinamo",
-            "abbr": "DZG",
-            "id": 2032
-        },
-        {
-            "name": "Rijeka",
-            "abbr": "RIJ",
-            "id": 2039
         },
         {
             "name": "\u0160ibenik",
