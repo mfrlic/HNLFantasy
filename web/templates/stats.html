@@ -10,6 +10,7 @@
         <script src="static/vendor/jquery/jquery.min.js"></script>
         <script src='static/vendor/bootstrap/js/bootstrap.min.js'></script>
         <script src="static/vendor/aos/aos.js"></script>
+        <script src="static/vendor/sort/sort.js"></script>
         <script src="static/js/main.js"></script>
         <style>
             .scrolled-down{
@@ -41,27 +42,75 @@
             </div>
         </nav>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-9">
+                <select name="filter" id="filter">
+                    <optgroup label="Općenito">
+                        <option value="1">Svi igrači</option>
+                        <option value="2">Skaut lista</option>
+                    </optgroup>
+                    <optgroup label="Pozicije">
+                        <option value="3">Vratari</option>
+                        <option value="4">Braniči</option>
+                        <option value="5">Vezni</option>
+                        <option value="6">Napadači</option>
+                    </optgroup>
+                    <optgroup label="Klubovi">
+                        <option value="7">Dinamo</option>
+                        <option value="8">Dragovoljac</option>
+                        <option value="9">Gorica</option>
+                        <option value="10">Hajduk</option>
+                        <option value="11">Istra</option>
+                        <option value="12">Lokomotiva</option>
+                        <option value="13">Osijek</option>
+                        <option value="14">Rijeka</option>
+                        <option value="15">Slaven</option>
+                        <option value="16">Šibenik</option>
+                    </optgroup>
+                </select>
+
+                <select name="sort" id="sort">
+                    <option value="1">Bodovi</option>
+                    <option value="2">Cijena</option>
+                    <option value="3">Odabrani %</option>
+                    <option value="4">Minuta odigrano</option>
+                    <option value="5">Golovi</option>
+                    <option value="6">Asistencije</option>
+                    <option value="7">Prazne mreže</option>
+                    <option value="8">Primljeni golovi</option>
+                    <option value="9">Autogolovi</option>
+                    <option value="10">Obranjeni penali</option>
+                    <option value="11">Promašeni penali</option>
+                    <option value="12">Žuti kartoni</option>
+                    <option value="13">Crveni kartoni</option>
+                    <option value="14">Obrane</option>
+                    <option value="15">Forma</option>
+                    <option value="16">Bonus bodovi</option>
+                    <option value="17">U timu tjedna</option>
+                    <option value="18">Bodovi po kolu</option>
+                    <option value="19">Transferi u</option>
+                    <option value="20">Transferi iz</option>
+                </select>
+
                 <table class="table">
                     <thead>
-                        <td>
+                        <th>
                         
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Ime
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Pozicija
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Klub
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Država
-                        </td>
-                        <td>
-                            Bodovi
-                        </td>
+                        </th>
+                        <th>
+                            *
+                        </th>
                     </thead>
                     {% for player in data %}
                     <tr>
@@ -81,16 +130,85 @@
                             <img src="static/img/flags/{{ player['country'] }}.svg">
                         </td>
                         <td>
-                            {{ player["totalPoints"] }}
+                            {{ player["points"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["minutesPlayed"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["goals"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["assists"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["cleanSheets"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["goalsConceded"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["ownGoals"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["missedPens"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["yellowCard"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["redCard"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["saves"] }}
+                        </td>
+                        <td class="d-none">
+                            {{ player["savedPens"] }}
                         </td>
                     </tr>
                     {% endfor %}
                 </table>
             </div>
-            <div class="col-lg-4">
-
-            </div>
         </div>
+
+        <script>
+            var table = $('table');
+
+            $('th.sortable')
+                .wrapInner('<span title="sort this column"/>')
+                .each(function(){
+
+                    var th = $(this),
+                        thIndex = th.index(),
+                        inverse = false;
+
+                    th.click(function(){
+
+                        table.find('td').filter(function(){
+
+                            return $(this).index() === thIndex;
+
+                        }).sortElements(function(a, b){
+
+                            if( $.text([a]) == $.text([b]) )
+                                return 0;
+
+                            return parseInt($.text([a])) < parseInt($.text([b])) ?
+                                inverse ? -1 : 1
+                                : inverse ? 1 : -1;
+
+                        }, function(){
+
+                            return this.parentNode; 
+
+                        });
+
+                        inverse = !inverse;
+
+                    });
+
+                });
+        </script>
 
         <script>
             document.addEventListener("DOMContentLoaded", function(){
