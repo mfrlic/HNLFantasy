@@ -91,7 +91,7 @@
                     <option value="20">Transferi iz</option>
                 </select>
 
-                <table class="table">
+                <table class="table" id="main">
                     <thead>
                         <th>
                         
@@ -111,9 +111,21 @@
                         <th>
                             *
                         </th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
+                        <th class="d-none"></th>
                     </thead>
                     {% for player in data %}
-                    <tr>
+                    <tr data-id="{{ player['id'] }}">
                         <td>
                             <img class="player-img" src="static/img/players/{{ player['id'] }}.png">
                         </td>
@@ -123,7 +135,7 @@
                         <td>
                             {{ player["position"] }}
                         </td>
-                        <td>
+                        <td data-club="{{ player['club'] }}">
                             <img src="static/img/clubs/{{ player['club'] }}.png">
                         </td>
                         <td>
@@ -151,6 +163,9 @@
                             {{ player["ownGoals"] }}
                         </td>
                         <td class="d-none">
+                            {{ player["savedPens"] }}
+                        </td>
+                        <td class="d-none">
                             {{ player["missedPens"] }}
                         </td>
                         <td class="d-none">
@@ -162,52 +177,337 @@
                         <td class="d-none">
                             {{ player["saves"] }}
                         </td>
-                        <td class="d-none">
-                            {{ player["savedPens"] }}
-                        </td>
                     </tr>
                     {% endfor %}
                 </table>
             </div>
         </div>
 
+        {% for player in data %}
+        <div class="modal" id="{{ player['id'] }}" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead>
+                                <th>
+                                    U
+                                </th>
+                                <th>
+                                    B
+                                </th>
+                                <th>
+                                    M
+                                </th>
+                                <th>
+                                    G
+                                </th>
+                                <th>
+                                    A
+                                </th>
+                                <th>
+                                    AG
+                                </th>
+                                <th>
+                                    PG
+                                </th>
+                                <th>
+                                    PM
+                                </th>
+                                <th>
+                                    PP
+                                </th>
+                                {% if player["position"] == "G" %}
+                                <th>
+                                    OP
+                                </th>
+                                <th>
+                                    O
+                                </th>
+                                {% endif %}
+                                <th>
+                                    Ž
+                                </th>
+                                <th>
+                                    C
+                                </th>
+                            </thead>
+                            {% for matches in player["matches"] %}
+                            <tr>
+                                <td>
+                                    {{ matches["homeTeam"] }} {{ matches["homeScore"] }} - {{ matches["awayScore"] }} {{ matches["awayTeam"] }}
+                                </td>
+                                <td>
+                                    {{ matches["pointsTotal"] }}
+                                </td>
+                                <td>
+                                    {{ matches["minutesPlayed"] }}
+                                </td>
+                                <td>
+                                    {{ matches["goals"] }}
+                                </td>
+                                <td>
+                                    {{ matches["assists"] }}
+                                </td>
+                                <td>
+                                    {{ matches["ownGoals"] }}
+                                </td>
+                                <td>
+                                    {{ matches["goalsConceded"] }}
+                                </td>
+                                <td>
+                                    {% if matches["cleanSheet"] %}
+                                    Da
+                                    {% else %}
+                                    Ne
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {{ matches["penaltiesMissed"] }}
+                                </td>
+                                {% if player["position"] == "G" %}
+                                <th>
+                                    {{ matches["penaltiesSaved"] }}
+                                </th>
+                                <th>
+                                    {{ matches["saves"] }}
+                                </th>
+                                {% endif %}
+                                <td>
+                                    {{ matches["yellowCard"] }}
+                                </td>
+                                <td>
+                                    {{ matches["redCard"] }}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
         <script>
-            var table = $('table');
+            var table = $('#main');
 
-            $('th.sortable')
-                .wrapInner('<span title="sort this column"/>')
-                .each(function(){
+            $(document).ready(function() {
+                table.find('td').filter(function() {
+                    return $(this).index() === 5;
+                }).sortElements(function(a, b) {
 
-                    var th = $(this),
-                        thIndex = th.index(),
-                        inverse = false;
+                    if( $.text([a]) == $.text([b]) )
+                        return 0;
 
-                    th.click(function(){
+                    return parseInt($.text([a])) < parseInt($.text([b]))  ? 1 : -1
 
-                        table.find('td').filter(function(){
-
-                            return $(this).index() === thIndex;
-
-                        }).sortElements(function(a, b){
-
-                            if( $.text([a]) == $.text([b]) )
-                                return 0;
-
-                            return parseInt($.text([a])) < parseInt($.text([b])) ?
-                                inverse ? -1 : 1
-                                : inverse ? 1 : -1;
-
-                        }, function(){
-
-                            return this.parentNode; 
-
-                        });
-
-                        inverse = !inverse;
-
-                    });
-
+                }, function() {
+                    return this.parentNode; 
                 });
+            })
+
+            $("#filter").change(function() {
+                var value = $(this).val()
+                $("#main tr").show()
+                if(value == 3) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 2) {
+                            return $(this).text().indexOf("G") === -1;
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 4) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 2) {
+                            return $(this).text().indexOf("D") === -1;
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 5) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 2) {
+                            return $(this).text().indexOf("M") === -1;
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 6) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 2) {
+                            return $(this).text().indexOf("F") === -1;
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 7) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Dinamo"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 8) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Dragovoljac"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 9) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Gorica"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 10) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Hajduk"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 11) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Istra"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 12) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Lokomotiva"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 13) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Osijek"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 14) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Rijeka"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 15) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Slaven"
+                        }
+                    }).parent().hide();
+                }
+                else if(value == 16) {
+                    $("#main td").filter(function() {
+                        if($(this).index() === 3) {
+                            return $(this).data("club") !== "Sibenik"
+                        }
+                    }).parent().hide();
+                }
+            })
+
+            $("#sort").change(function() {
+                var sort
+
+                if($("#sort").val() == 1) {
+                    sort = 5
+                }
+                else if($("#sort").val() == 2) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 3) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 4) {
+                    sort = 6
+                }
+                else if($("#sort").val() == 5) {
+                    sort = 7
+                }
+                else if($("#sort").val() == 6) {
+                    sort = 8
+                }
+                else if($("#sort").val() == 7) {
+                    sort = 9
+                }
+                else if($("#sort").val() == 8) {
+                    sort = 10
+                }
+                else if($("#sort").val() == 9) {
+                    sort = 11
+                }
+                else if($("#sort").val() == 10) {
+                    sort = 12
+                }
+                else if($("#sort").val() == 11) {
+                    sort = 13
+                }
+                else if($("#sort").val() == 12) {
+                    sort = 14
+                }
+                else if($("#sort").val() == 13) {
+                    sort = 15
+                }
+                else if($("#sort").val() == 14) {
+                    sort = 16
+                }
+                else if($("#sort").val() == 15) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 16) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 17) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 18) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 19) {
+                    sort = 0
+                }
+                else if($("#sort").val() == 20) {
+                    sort = 0
+                }
+
+                table.find('td').filter(function() {
+                    for(var i = 5; i<17; i++) {
+                        if($(this).index() === i) {
+                            $(this).addClass("d-none")
+                        }
+                    }
+                    if($(this).index() === sort) {
+                        $(this).removeClass("d-none")
+                    }
+                    return $(this).index() === sort;
+                }).sortElements(function(a, b) {
+
+                    if( $.text([a]) == $.text([b]) )
+                        return 0;
+
+                    return parseInt($.text([a])) < parseInt($.text([b])) ? 1 : -1
+
+                }, function() {
+                    return this.parentNode; 
+                });
+            })
+
+            $('#main tr').click(function() {
+                $("#" + $(this).data("id")).modal('show')
+            })
         </script>
 
         <script>

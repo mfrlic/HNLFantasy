@@ -13,7 +13,7 @@ img {
 select {
     margin: 20px;
     width: 200px;
-    padding: 5px 35px 5px 5px;
+    padding: 20px 50px 20px 20px;
     font-size: 16px;
     border: 1px solid #CCC;
     border-radius: 0;
@@ -21,5 +21,5 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(https://stackoverflow.com/favicon.ico) 96% / 15% no-repeat #fff;
+    background: url("arrow-down.png") 96% / 15% no-repeat #fff;
 }
