@@ -1,5 +1,11 @@
+:root {
+    --primary: #ec008c;
+    --secondary: #323232;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background: var(--secondary);
+    color: #fff;
 }
 
 img {
@@ -11,9 +17,10 @@ img {
 }
 
 select {
+    color: #000;
     margin: 20px;
     width: 200px;
-    padding: 20px 50px 20px 20px;
+    padding: 20px 20px 20px 20px;
     font-size: 16px;
     border: 1px solid #CCC;
     border-radius: 0;
@@ -22,4 +29,17 @@ select {
     -moz-appearance: none;
     appearance: none;
     background: url("arrow-down.png") 96% / 15% no-repeat #fff;
+}
+
+.scrolled-down{
+    transform: translateY(-100%); 
+    transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform: translateY(0); 
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    background: var(--primary);
 }
