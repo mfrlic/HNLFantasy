@@ -4,7 +4,58 @@
         <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
         <link href="static/vendor/aos/aos.css" rel="stylesheet">
-        <link href="static/css/style.css" rel="stylesheet">
+        <!-- <link href="static/css/style.css" rel="stylesheet"> -->
+        <style>
+            :root {
+                --primary: #ec008c;
+                --secondary: #323232;
+            }
+
+            body {
+                background: var(--secondary);
+                color: #fff;
+            }
+
+            img {
+                height: 50px;
+            }
+
+            .player-img {
+                border-radius: 50%;
+            }
+
+            select {
+                color: #000;
+                margin: 20px;
+                width: 200px;
+                padding: 20px 20px 20px 20px;
+                font-size: 16px;
+                border: 1px solid #CCC;
+                border-radius: 0;
+                height: 34px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background: url("arrow-down.png") 96% / 15% no-repeat #fff;
+            }
+
+            .scrolled-down{
+                transform: translateY(-100%); 
+                transition: all 0.3s ease-in-out;
+            }
+            .scrolled-up{
+                transform: translateY(0); 
+                transition: all 0.3s ease-in-out;
+            }
+
+            nav {
+                background: var(--primary);
+            }
+
+            table tr {
+                color: #fff;
+            }
+        </style>
 
         <script src="static/vendor/jquery/jquery.min.js"></script>
         <script src='static/vendor/bootstrap/js/bootstrap.min.js'></script>

@@ -573,7 +573,7 @@ def get_final_data():
 
             dataFinal["data"].append({ "id": player["id"], "name": name, "shortName": shortName, "position": position, "club": club, "country": country, "points": totalPoints, "minutesPlayed": totalMinutes, "goals": totalGoals, "assists": totalAssists, "ownGoals": totalOwnGoals, "cleanSheets": totalCleanSheets, "goalsConceded": totalGoalsConceded, "saves": totalSaves, "savedPens": totalSavedPens, "missedPens": totalMissedPens, "yellowCard": totalYellowCards, "redCard": totalRedCards,  "matches": playerMatches })
 
-    with open("web/data.json", "w") as file:
+    with open("web/data/data.json", "w") as file:
         json.dump(dataFinal, file, indent=4)
 
 def get_player_images():

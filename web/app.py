@@ -23,6 +23,7 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'you-will-never-guess
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -41,12 +42,10 @@ class RegistrationForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
     password2 = PasswordField('Repeat Password', validators=[DataRequired(), EqualTo('password')])
     submit = SubmitField('Register')
-
     def validate_username(self, username):
         user = User.query.filter_by(username=username.data).first()
         if user is not None:
             raise ValidationError('Please use a different username.')
-
     def validate_email(self, email):
         user = User.query.filter_by(email=email.data).first()
         if user is not None:
@@ -59,16 +58,15 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Sign In')
 
 
-with open("web/data.json") as file:
+with open("web/data/data.json") as file:
     data = json.load(file)["data"]
 
 
 @login.user_loader
 def load_user(id):
     return User.query.get(int(id))
+
 @app.route('/register', methods=['GET', 'POST'])
-
-
 def register():
     if current_user.is_authenticated:
         return redirect('/')
