@@ -89,7 +89,7 @@
                 <th class="d-none"></th>
             </thead>
             {% for player in data %}
-            <tr data-id="{{ player['id'] }}">
+            <tr data-id="{{ player['id']}}" class="{% if not player['active'] %} disabled {% endif %}"> 
                 <td>
                     <img class="player-img" src="static/img/players/{{ player['id'] }}.png">
                 </td>

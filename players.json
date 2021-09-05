@@ -6,231 +6,355 @@
                 "shortName": "B. Petkovi\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 309306
-            },
-            {
-                "name": "Lirim Kastrati",
-                "shortName": "L. Kastrati",
-                "position": "F",
-                "country": "XK",
-                "id": 895245
+                "id": 309306,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Duje \u010cop",
                 "shortName": "D. \u010cop",
                 "position": "F",
                 "country": "HR",
-                "id": 44679
+                "id": 44679,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Menalo",
                 "shortName": "L. Menalo",
                 "position": "F",
                 "country": "BA",
-                "id": 795169
+                "id": 795169,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Komnen Andri\u0107",
                 "shortName": "K. Andri\u0107",
                 "position": "F",
                 "country": "RS",
-                "id": 314138
+                "id": 314138,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Deni Juri\u0107",
                 "shortName": "D. Juri\u0107",
                 "position": "F",
                 "country": "AU",
-                "id": 855970
-            },
-            {
-                "name": "Ivan La\u0107a",
-                "shortName": "I. La\u0107a",
-                "position": "F",
-                "country": "HR",
-                "id": 998510
+                "id": 855970,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "\u0160ibenik",
+                        "transferTo": "Dinamo",
+                        "transferTimestamp": 1628726400
+                    },
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "\u0160ibenik",
+                        "transferTimestamp": 1625529600
+                    },
+                    {
+                        "transferFrom": "\u0160ibenik",
+                        "transferTo": "Dinamo",
+                        "transferTimestamp": 1625184000
+                    }
+                ]
             },
             {
                 "name": "Mislav Or\u0161i\u0107",
                 "shortName": "M. Or\u0161i\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 88645
+                "id": 88645,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Amer Gojak",
                 "shortName": "A. Gojak",
                 "position": "M",
                 "country": "BA",
-                "id": 357638
+                "id": 357638,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Ivanu\u0161ec",
                 "shortName": "L. Ivanu\u0161ec",
                 "position": "M",
                 "country": "HR",
-                "id": 822462
+                "id": 822462,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Arijan Ademi",
                 "shortName": "A. Ademi",
                 "position": "M",
                 "country": "MK",
-                "id": 51168
+                "id": 51168,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Mi\u0161i\u0107",
                 "shortName": "J. Mi\u0161i\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 243713
+                "id": 243713,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bartol Franji\u0107",
                 "shortName": "B. Franji\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 880742
+                "id": 880742,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Toli\u0107",
                 "shortName": "M. Toli\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 784673
+                "id": 784673,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Bulat",
                 "shortName": "M. Bulat",
                 "position": "M",
                 "country": "HR",
-                "id": 905063
+                "id": 905063,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dario \u0160piki\u0107",
                 "shortName": "D. \u0160piki\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 826024
+                "id": 826024,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan \u0160arani\u0107",
                 "shortName": "I. \u0160arani\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 1090020
+                "id": 1090020,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bojan Kne\u017eevi\u0107",
                 "shortName": "B. Kne\u017eevi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 326401
+                "id": 326401,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Sadegh Moharrami",
                 "shortName": "S. Moharrami",
                 "position": "D",
                 "country": "IR",
-                "id": 359358
+                "id": 359358,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stefan Ristovski",
                 "shortName": "S. Ristovski",
                 "position": "D",
                 "country": "MK",
-                "id": 73146
+                "id": 73146,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dino Peri\u0107",
                 "shortName": "D. Peri\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 286917
+                "id": 286917,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Rasmus Lauritsen",
                 "shortName": "R. Lauritsen",
                 "position": "D",
                 "country": "DK",
-                "id": 795235
+                "id": 795235,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "K\u00e9vin Th\u00e9ophile-Catherine",
                 "shortName": "K. Th\u00e9ophile-Catherine",
                 "position": "D",
                 "country": "FR",
-                "id": 44225
+                "id": 44225,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marin Leovac",
                 "shortName": "M. Leovac",
                 "position": "D",
                 "country": "HR",
-                "id": 37433
-            },
-            {
-                "name": "Fran\u00e7ois Moubandje",
-                "shortName": "F. Moubandje",
-                "position": "D",
-                "country": "CH",
-                "id": 106869
+                "id": 37433,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Emir Dilaver",
                 "shortName": "E. Dilaver",
                 "position": "D",
                 "country": "AT",
-                "id": 66171
+                "id": 66171,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Fran\u00e7ois Moubandje",
+                "shortName": "F. Moubandje",
+                "position": "D",
+                "country": "CH",
+                "id": 106869,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip \u0160utalo",
                 "shortName": "J. \u0160utalo",
                 "position": "D",
                 "country": "HR",
-                "id": 954836
+                "id": 954836,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stefan Mili\u0107",
                 "shortName": "S. Mili\u0107",
                 "position": "D",
                 "country": "ME",
-                "id": 888701
+                "id": 888701,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Daniel \u0160tefulj",
                 "shortName": "D. \u0160tefulj",
                 "position": "D",
                 "country": "HR",
-                "id": 942081
+                "id": 942081,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Le\u0161kovi\u0107",
                 "shortName": "M. Le\u0161kovi\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 93734
+                "id": 93734,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dominik Livakovi\u0107",
                 "shortName": "D. Livakovi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 190419
+                "id": 190419,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Danijel Zagorac",
                 "shortName": "D. Zagorac",
                 "position": "G",
                 "country": "HR",
-                "id": 65485
+                "id": 65485,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dinko Horka\u0161",
                 "shortName": "D. Horka\u0161",
                 "position": "G",
                 "country": "HR",
-                "id": 855922
+                "id": 855922,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Kristijan Jaki\u0107",
+                "shortName": "K. Jaki\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 796206,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "E. Frankfurt",
+                        "transferTimestamp": 1630281600
+                    }
+                ]
+            },
+            {
+                "name": "Lirim Kastrati",
+                "shortName": "L. Kastrati",
+                "position": "F",
+                "country": "XK",
+                "id": 895245,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Legia",
+                        "transferTimestamp": 1630454400
+                    }
+                ]
+            },
+            {
+                "name": "Lovro Majer",
+                "shortName": "L. Majer",
+                "position": "M",
+                "country": "HR",
+                "id": 841947,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Rennes",
+                        "transferTimestamp": 1629936000
+                    }
+                ]
+            },
+            {
+                "name": "Mario Gavranovi\u0107",
+                "shortName": "M. Gavranovi\u0107",
+                "position": "F",
+                "country": "CH",
+                "id": 49351,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Kayserispor",
+                        "transferTimestamp": 1628726400
+                    }
+                ]
             }
         ],
         "2039": [
@@ -239,238 +363,297 @@
                 "shortName": "I. Abass",
                 "position": "F",
                 "country": "GH",
-                "id": 873419
+                "id": 873419,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Drmi\u0107",
                 "shortName": "J. Drmi\u0107",
                 "position": "F",
                 "country": "CH",
-                "id": 107025
+                "id": 107025,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Haris Vu\u010dki\u0107",
                 "shortName": "H. Vu\u010dki\u0107",
                 "position": "F",
                 "country": "SI",
-                "id": 69373
+                "id": 69373,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Prince Ampem",
                 "shortName": "P. Ampem",
                 "position": "F",
                 "country": "GH",
-                "id": 923888
+                "id": 923888,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Matej Vuk",
                 "shortName": "M. Vuk",
                 "position": "F",
                 "country": "HR",
-                "id": 887798
+                "id": 887798,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jorge Obregon",
                 "shortName": "J. Obreg\u00f3n",
                 "position": "F",
                 "country": "CO",
-                "id": 824165
+                "id": 824165,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bernard Karrica",
                 "shortName": "B. Karrica",
                 "position": "F",
                 "country": "AL",
-                "id": 997210
+                "id": 997210,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Daniel Iglesias",
                 "shortName": "D. Iglesias",
                 "position": "F",
                 "country": "ES",
-                "id": 227918
+                "id": 227918,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lindon Selahi",
                 "shortName": "L. Selahi",
                 "position": "M",
                 "country": "AL",
-                "id": 922945
+                "id": 922945,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Robert Muri\u0107",
                 "shortName": "R. Muri\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 283853
+                "id": 283853,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Robert Mudra\u017eija",
                 "shortName": "R. Mudra\u017eija",
                 "position": "M",
                 "country": "HR",
-                "id": 770399
+                "id": 770399,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Lepinjica",
                 "shortName": "I. Lepinjica",
                 "position": "M",
                 "country": "HR",
-                "id": 887799
+                "id": 887799,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Adam Gnezda \u010cerin",
                 "shortName": "A. G. \u010cerin",
                 "position": "M",
                 "country": "SI",
-                "id": 843251
+                "id": 843251,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Adrian Liber",
                 "shortName": "A. Liber",
                 "position": "M",
                 "country": "HR",
-                "id": 943211
+                "id": 943211,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Denis Bu\u0161nja",
                 "shortName": "D. Bu\u0161nja",
                 "position": "M",
                 "country": "HR",
-                "id": 1048593
+                "id": 1048593,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Domagoj Pavi\u010di\u0107",
                 "shortName": "D. Pavi\u010di\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 94239
+                "id": 94239,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mato Stani\u0107",
                 "shortName": "M. Stani\u0107",
                 "position": "M",
                 "country": "BA",
-                "id": 921222
-            },
-            {
-                "name": "Hrvoje Smol\u010di\u0107",
-                "shortName": "H. Smol\u010di\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 974582
+                "id": 921222,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Darko Velkovski",
                 "shortName": "D. Velkovski",
                 "position": "D",
                 "country": "MK",
-                "id": 156990
+                "id": 156990,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Hrvoje Smol\u010di\u0107",
+                "shortName": "H. Smol\u010di\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 974582,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Roko Juri\u0161i\u0107",
                 "shortName": "R. Juri\u0161i\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 929658
+                "id": 929658,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Tome\u010dak",
                 "shortName": "I. Tome\u010dak",
                 "position": "D",
                 "country": "HR",
-                "id": 50577
+                "id": 50577,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Filip Braut",
                 "shortName": "F. Braut",
                 "position": "D",
                 "country": "HR",
-                "id": 964991
+                "id": 964991,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jo\u00e3o Escoval",
                 "shortName": "J. Escoval",
                 "position": "D",
                 "country": "PT",
-                "id": 825675
+                "id": 825675,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Nino Galovi\u0107",
                 "shortName": "N. Galovi\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 161431
+                "id": 161431,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Anton Kre\u0161i\u0107",
                 "shortName": "A. Kre\u0161i\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 283849
+                "id": 283849,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Niko Gale\u0161i\u0107",
                 "shortName": "N. Gale\u0161i\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 1031476
+                "id": 1031476,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Andrija Vuk\u010devi\u0107",
                 "shortName": "A. Vuk\u010devi\u0107",
                 "position": "D",
                 "country": "ME",
-                "id": 280737
+                "id": 280737,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Smol\u010di\u0107",
                 "shortName": "I. Smol\u010di\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 974581
+                "id": 974581,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mikhail Merkulov",
                 "shortName": "M. Merkulov",
                 "position": "D",
                 "country": "RU",
-                "id": 316443
+                "id": 316443,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Nediljko Labrovi\u0107",
                 "shortName": "N. Labrovi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 947986
+                "id": 947986,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Martin Zlomisli\u0107",
                 "shortName": "M. Zlomisli\u0107",
                 "position": "G",
                 "country": "BA",
-                "id": 885719
+                "id": 885719,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "D\u00e1vid Nwolokor",
                 "shortName": "D. Nwolokor",
                 "position": "G",
                 "country": "NG",
-                "id": 790134
+                "id": 790134,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Andrej Prskalo",
                 "shortName": "A. Prskalo",
                 "position": "G",
                 "country": "HR",
-                "id": 50516
-            },
-            {
-                "name": "Jetmir Ameti",
-                "shortName": "J. Ameti",
-                "position": "N/A",
-                "country": "N/A",
-                "id": 1084020
+                "id": 50516,
+                "active": true,
+                "transfers": []
             }
         ],
         "2036": [
@@ -479,203 +662,359 @@
                 "shortName": "M. Livaja",
                 "position": "F",
                 "country": "HR",
-                "id": 94226
+                "id": 94226,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jan Mlakar",
                 "shortName": "J. Mlakar",
                 "position": "F",
                 "country": "SI",
-                "id": 827367
+                "id": 827367,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marin Ljubi\u010di\u0107",
                 "shortName": "M. Ljubi\u010di\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 1090010
+                "id": 1090010,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dimitris Diamantakos",
                 "shortName": "D. Diamantakos",
                 "position": "F",
                 "country": "GR",
-                "id": 98217
-            },
-            {
-                "name": "Emir Sahiti",
-                "shortName": "E. Sahiti",
-                "position": "F",
-                "country": "AL",
-                "id": 841985
+                "id": 98217,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Samuel Eduok",
                 "shortName": "S. Eduok",
                 "position": "F",
                 "country": "NG",
-                "id": 330035
+                "id": 330035,
+                "active": true,
+                "transfers": []
             },
             {
-                "name": "Ivan Brni\u0107",
-                "shortName": "I. Brni\u0107",
+                "name": "Marko Domancic",
+                "shortName": "M. Domancic",
                 "position": "F",
                 "country": "HR",
-                "id": 916182
+                "id": 1010861,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Filip Krovinovi\u0107",
                 "shortName": "F. Krovinovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 322417
+                "id": 322417,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stipe Biuk",
                 "shortName": "S. Biuk",
                 "position": "M",
                 "country": "HR",
-                "id": 965019
+                "id": 965019,
+                "active": true,
+                "transfers": []
             },
             {
-                "name": "Nikola Kati\u0107",
-                "shortName": "N. Kati\u0107",
+                "name": "Emir Sahiti",
+                "shortName": "E. Sahiti",
                 "position": "M",
-                "country": "HR",
-                "id": 831488
+                "country": "AL",
+                "id": 841985,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario \u010cui\u0107",
                 "shortName": "M. \u010cui\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 916181
-            },
-            {
-                "name": "Tonio Tekli\u0107",
-                "shortName": "T. Tekli\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 904669
+                "id": 916181,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Alexander Ka\u010danikli\u0107",
                 "shortName": "A. Ka\u010danikli\u0107",
                 "position": "M",
                 "country": "SE",
-                "id": 95572
+                "id": 95572,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jani Atanasov",
                 "shortName": "J. Atanasov",
                 "position": "M",
                 "country": "MK",
-                "id": 883475
-            },
-            {
-                "name": "Josip Vukovi\u0107",
-                "shortName": "J. Vukovi\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 137635
+                "id": 883475,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marco Fossati",
                 "shortName": "M. Fossati",
                 "position": "M",
                 "country": "IT",
-                "id": 587906
+                "id": 587906,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Josip Vukovi\u0107",
+                "shortName": "J. Vukovi\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 137635,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Osijek",
+                        "transferTo": "Hajduk",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Dino Skorup",
                 "shortName": "D. Skorup",
                 "position": "M",
                 "country": "HR",
-                "id": 897602
+                "id": 897602,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Hajduk",
+                        "transferTimestamp": 1629849600
+                    },
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Hajduk",
+                        "transferTimestamp": 1629244800
+                    },
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Dragovoljac",
+                        "transferTimestamp": 1626048000
+                    }
+                ]
             },
             {
                 "name": "Gerg\u0151 Lovrencsics",
                 "shortName": "G. Lovrencsics",
                 "position": "D",
                 "country": "HU",
-                "id": 75417
+                "id": 75417,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Nikola Kati\u0107",
+                "shortName": "N. Kati\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 831488,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "David \u010colina",
                 "shortName": "D. \u010colina",
                 "position": "D",
                 "country": "HR",
-                "id": 826020
+                "id": 826020,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stefan Simi\u0107",
                 "shortName": "S. Simi\u010d",
                 "position": "D",
                 "country": "CZ",
-                "id": 188335
-            },
-            {
-                "name": "Josip Elez",
-                "shortName": "J. Elez",
-                "position": "D",
-                "country": "HR",
-                "id": 149670
+                "id": 188335,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Dol\u010dek",
                 "shortName": "I. Dol\u010dek",
                 "position": "D",
                 "country": "HR",
-                "id": 932608
+                "id": 932608,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Josip Elez",
+                "shortName": "J. Elez",
+                "position": "D",
+                "country": "HR",
+                "id": 149670,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kristian Dimitrov",
                 "shortName": "K. Dimitrov",
                 "position": "D",
                 "country": "BG",
-                "id": 826915
+                "id": 826915,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lumbardh Dellova",
                 "shortName": "L. Dellova",
                 "position": "D",
                 "country": "XK",
-                "id": 970518
+                "id": 970518,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan \u0106alu\u0161i\u0107",
                 "shortName": "I. \u0106alu\u0161i\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 1003419
+                "id": 1003419,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka \u0160kari\u010di\u0107",
                 "shortName": "L. \u0160kari\u010di\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 964993
+                "id": 964993,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lovre Kalini\u0107",
                 "shortName": "L. Kalini\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 65221
+                "id": 65221,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Posavec",
                 "shortName": "J. Posavec",
                 "position": "G",
                 "country": "HR",
-                "id": 798416
+                "id": 798416,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Toni Sili\u0107",
                 "shortName": "T. Sili\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 1089168
+                "id": 1089168,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Tonio Tekli\u0107",
+                "shortName": "T. Tekli\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 904669,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Vara\u017edin",
+                        "transferTimestamp": 1630368000
+                    },
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Hajduk",
+                        "transferTimestamp": 1629244800
+                    },
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Dragovoljac",
+                        "transferTimestamp": 1625443200
+                    }
+                ]
+            },
+            {
+                "name": "Ivan \u0106ubeli\u0107",
+                "shortName": "I. \u0106ubeli\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 965022,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Dugopolje",
+                        "transferTimestamp": 1629936000
+                    }
+                ]
+            },
+            {
+                "name": "Jairo da Silva",
+                "shortName": "J. Silva",
+                "position": "F",
+                "country": "BR",
+                "id": 539260,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Pafos",
+                        "transferTimestamp": 1629331200
+                    }
+                ]
+            },
+            {
+                "name": "Ivan Peri\u0107",
+                "shortName": "I. Peri\u0107",
+                "position": "G",
+                "country": "HR",
+                "id": 1010859,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Pafos",
+                        "transferTimestamp": 1629331200
+                    }
+                ]
+            },
+            {
+                "name": "Mario Vu\u0161kovi\u0107",
+                "shortName": "M. Vu\u0161kovi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 880748,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "HSV",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
             }
         ],
         "2040": [
@@ -684,217 +1023,288 @@
                 "shortName": "R. Mi\u00e9rez",
                 "position": "F",
                 "country": "AR",
-                "id": 836200
+                "id": 836200,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ante Erceg",
                 "shortName": "A. Erceg",
                 "position": "F",
                 "country": "HR",
-                "id": 65528
+                "id": 65528,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mirlind Daku",
                 "shortName": "M. Daku",
                 "position": "F",
                 "country": "XK",
-                "id": 970516
+                "id": 970516,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mihret Top\u010dagi\u0107",
                 "shortName": "M. Top\u010dagi\u0107",
                 "position": "F",
                 "country": "AT",
-                "id": 66209
+                "id": 66209,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "L\u00e1szl\u00f3 Kleinheisler",
                 "shortName": "L. Kleinheisler",
                 "position": "M",
                 "country": "HU",
-                "id": 134877
+                "id": 134877,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Merveil Ndockyt",
                 "shortName": "M. Ndockyt",
                 "position": "M",
                 "country": "CG",
-                "id": 890996
+                "id": 890996,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Darko Neja\u0161mi\u0107",
                 "shortName": "D. Neja\u0161mi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 897603
+                "id": 897603,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "Osijek",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Petar Bo\u010dkaj",
                 "shortName": "P. Bo\u010dkaj",
                 "position": "M",
                 "country": "HR",
-                "id": 358598
+                "id": 358598,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Damjan Bohar",
                 "shortName": "D. Bohar",
                 "position": "M",
                 "country": "SI",
-                "id": 75509
+                "id": 75509,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mihael \u017daper",
                 "shortName": "M. \u017daper",
                 "position": "M",
                 "country": "HR",
-                "id": 839916
+                "id": 839916,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Fioli\u0107",
                 "shortName": "I. Fioli\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 283855
+                "id": 283855,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Petar Brlek",
                 "shortName": "P. Brlek",
                 "position": "M",
                 "country": "HR",
-                "id": 136718
+                "id": 136718,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dmytro Lyopa",
                 "shortName": "D. Lyopa",
                 "position": "M",
                 "country": "UA",
-                "id": 41308
+                "id": 41308,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "\u0160ime Gr\u017ean",
                 "shortName": "\u0160. Gr\u017ean",
                 "position": "M",
                 "country": "HR",
-                "id": 152402
+                "id": 152402,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "Osijek",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Amer Hiro\u0161",
                 "shortName": "A. Hiro\u0161",
                 "position": "M",
                 "country": "BA",
-                "id": 797775
+                "id": 797775,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marin Pilj",
                 "shortName": "M. Pilj",
                 "position": "M",
                 "country": "HR",
-                "id": 921764
+                "id": 921764,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Vedran Jugovi\u0107",
                 "shortName": "V. Jugovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 51223
+                "id": 51223,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Karlo Bartolec",
                 "shortName": "K. Bartolec",
                 "position": "D",
                 "country": "HR",
-                "id": 359802
+                "id": 359802,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mile \u0160kori\u0107",
                 "shortName": "M. \u0160kori\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 70172
+                "id": 70172,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Yevgen Cheberko",
                 "shortName": "Y. Cheberko",
                 "position": "D",
                 "country": "UA",
-                "id": 844594
+                "id": 844594,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mato Milo\u0161",
                 "shortName": "M. Milo\u0161",
                 "position": "D",
                 "country": "HR",
-                "id": 148190
+                "id": 148190,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Adrian Leon Bari\u0161i\u0107",
                 "shortName": "A. L. Bari\u0161i\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 959592
+                "id": 959592,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario Jur\u010devi\u010d",
                 "shortName": "M. Jur\u010devi\u010d",
                 "position": "D",
                 "country": "SI",
-                "id": 555538
-            },
-            {
-                "name": "Guti",
-                "shortName": "Guti",
-                "position": "D",
-                "country": "BR",
-                "id": 243515
+                "id": 555538,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Slavko Brali\u0107",
                 "shortName": "S. Brali\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 173675
+                "id": 173675,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Danijel Lon\u010dar",
                 "shortName": "D. Lon\u010dar",
                 "position": "D",
                 "country": "HR",
-                "id": 875633
+                "id": 875633,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jos\u00e9 Antonio Caro",
                 "shortName": "J. A. Caro",
                 "position": "D",
                 "country": "ES",
-                "id": 326611
-            },
-            {
-                "name": "Alen Grgi\u0107",
-                "shortName": "A. Grgi\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 344177
+                "id": 326611,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivica Ivu\u0161i\u0107",
                 "shortName": "I. Ivu\u0161i\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 190417
+                "id": 190417,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Malenica",
                 "shortName": "M. Malenica",
                 "position": "G",
                 "country": "HR",
-                "id": 149673
+                "id": 149673,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antonijo Je\u017eina",
                 "shortName": "A. Je\u017eina",
                 "position": "G",
                 "country": "HR",
-                "id": 51274
+                "id": 51274,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Antonio Mance",
+                "shortName": "A. Mance",
+                "position": "F",
+                "country": "HR",
+                "id": 551406,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Osijek",
+                        "transferTo": "Aue",
+                        "transferTimestamp": 1629849600
+                    }
+                ]
             }
         ],
         "43917": [
@@ -903,189 +1313,261 @@
                 "shortName": "Y. Delfi",
                 "position": "F",
                 "country": "IR",
-                "id": 872262
-            },
-            {
-                "name": "Matar Dieye",
-                "shortName": "M. Dieye",
-                "position": "F",
-                "country": "SN",
-                "id": 839388
+                "id": 872262,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Vlatko Stojanovski",
                 "shortName": "V. Stojanovski",
                 "position": "F",
                 "country": "MK",
-                "id": 856905
+                "id": 856905,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Matar Dieye",
+                "shortName": "M. Dieye",
+                "position": "F",
+                "country": "SN",
+                "id": 839388,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Paulius Golubickas",
                 "shortName": "P. Golubickas",
                 "position": "F",
                 "country": "LT",
-                "id": 912182
+                "id": 912182,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Fran Brodi\u0107",
                 "shortName": "F. Brodi\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 283841
+                "id": 283841,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Muyiwa Olabiran",
+                "shortName": "Benito",
+                "position": "F",
+                "country": "NG",
+                "id": 987571,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Matija Dvornekovi\u0107",
                 "shortName": "M. Dvornekovi\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 127844
+                "id": 127844,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kristijan Lovri\u0107",
                 "shortName": "K. Lovri\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 359044
+                "id": 359044,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Hrvoje Babec",
                 "shortName": "H. Babec",
                 "position": "M",
                 "country": "HR",
-                "id": 826023
+                "id": 826023,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Mitrovi\u0107",
                 "shortName": "J. Mitrovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 880751
+                "id": 880751,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Niko Jankovi\u0107",
                 "shortName": "N. Jankovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 965818
+                "id": 965818,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Toni Fruk",
                 "shortName": "T. Fruk",
                 "position": "M",
                 "country": "HR",
-                "id": 916183
+                "id": 916183,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Serge-Junior Martinsson Ngouali",
                 "shortName": "S. M. Ngouali",
                 "position": "M",
                 "country": "GA",
-                "id": 92980
+                "id": 92980,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Anthony Kalik",
                 "shortName": "A. Kalik",
                 "position": "M",
                 "country": "AU",
-                "id": 754140
+                "id": 754140,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Martin \u0160roler",
                 "shortName": "M. \u0160roler",
                 "position": "M",
                 "country": "HR",
-                "id": 882588
-            },
-            {
-                "name": "Joey Suk",
-                "shortName": "J. Suk",
-                "position": "M",
-                "country": "NL",
-                "id": 73722
+                "id": 882588,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jurica Pr\u0161ir",
                 "shortName": "J. Pr\u0161ir",
                 "position": "M",
                 "country": "HR",
-                "id": 880745
+                "id": 880745,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Joey Suk",
+                "shortName": "J. Suk",
+                "position": "M",
+                "country": "NL",
+                "id": 73722,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Albi Doka",
                 "shortName": "A. Doka",
                 "position": "D",
                 "country": "AL",
-                "id": 885707
+                "id": 885707,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kre\u0161imir Krizmani\u0107",
                 "shortName": "K. Krizmani\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 946040
+                "id": 946040,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Cheick Keita",
                 "shortName": "C. Keita",
                 "position": "D",
                 "country": "ML",
-                "id": 588162
+                "id": 588162,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Musa Muhammed",
                 "shortName": "M. Muhammed",
                 "position": "D",
                 "country": "NG",
-                "id": 359624
+                "id": 359624,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Aleksandar Jovi\u010di\u0107",
                 "shortName": "A. Jovi\u010di\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 843153
+                "id": 843153,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Matthew Steenvoorden",
                 "shortName": "M. Steenvoorden",
                 "position": "D",
                 "country": "NL",
-                "id": 196094
+                "id": 196094,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Sa\u0161a Marjanovi\u0107",
                 "shortName": "S. Marjanovi\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 1103981
+                "id": 1103981,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dominik Kotarski",
                 "shortName": "D. Kotarski",
                 "position": "G",
                 "country": "HR",
-                "id": 835678
+                "id": 835678,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Bani\u0107",
                 "shortName": "I. Bani\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 136705
+                "id": 136705,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jan Paolo Debijadi",
                 "shortName": "J. P. Debijadi",
                 "position": "G",
                 "country": "HR",
-                "id": 943392
+                "id": 943392,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Patrick Crnolatec",
                 "shortName": "P. Crnolatec",
                 "position": "G",
                 "country": "HR",
-                "id": 1106878
+                "id": 1106878,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Patrik Jug",
+                "shortName": "P. Jug",
+                "position": "M",
+                "country": "HR",
+                "id": 1126674,
+                "active": true,
+                "transfers": []
             }
         ],
         "36246": [
@@ -1094,294 +1576,405 @@
                 "shortName": "S. Kulenovi\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 826026
+                "id": 826026,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Lokomotiva",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
             },
             {
                 "name": "Francesco Tahiraj",
                 "shortName": "F. Tahiraj",
                 "position": "F",
                 "country": "AL",
-                "id": 802626
+                "id": 802626,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Indrit Tuci",
                 "shortName": "I. Tuci",
                 "position": "F",
                 "country": "AL",
-                "id": 985412
+                "id": 985412,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Dabro",
                 "shortName": "M. Dabro",
                 "position": "F",
                 "country": "HR",
-                "id": 283859
+                "id": 283859,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Irfan Had\u017ei\u0107",
                 "shortName": "I. Had\u017ei\u0107",
                 "position": "F",
                 "country": "BA",
-                "id": 173957
+                "id": 173957,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Arber Hoxha",
                 "shortName": "A. Hoxha",
                 "position": "F",
                 "country": "XK",
-                "id": 890663
+                "id": 890663,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Luka Stojkovi\u0107",
+                "shortName": "L. Stojkovi\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 1102829,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Gabriele Artistico",
                 "shortName": "G. Artistico",
                 "position": "F",
                 "country": "IT",
-                "id": 1009516
+                "id": 1009516,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Vranjkovi\u0107",
                 "shortName": "M. Vranjkovi\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 970524
+                "id": 970524,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Arber Mehmetllari",
                 "shortName": "A. Mehmetllari",
                 "position": "F",
                 "country": "AL",
-                "id": 1003401
+                "id": 1003401,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kim Jeong Hyun",
                 "shortName": "K. J. Hyun",
                 "position": "F",
                 "country": "KR",
-                "id": 1097651
+                "id": 1097651,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Zlatan Rami\u0107",
                 "shortName": "Z. Rami\u0107",
                 "position": "F",
                 "country": "BA",
-                "id": 1050097
+                "id": 1050097,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko \u0110ira",
                 "shortName": "M. Gjira",
                 "position": "M",
                 "country": "HR",
-                "id": 814889
-            },
-            {
-                "name": "Enis \u00c7okaj",
-                "shortName": "E. \u00c7okaj",
-                "position": "M",
-                "country": "AL",
-                "id": 990148
+                "id": 814889,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lukas Ka\u010davenda",
                 "shortName": "L. Ka\u010davenda",
                 "position": "M",
                 "country": "HR",
-                "id": 1083207
+                "id": 1083207,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Enis \u00c7okaj",
+                "shortName": "E. \u00c7okaj",
+                "position": "M",
+                "country": "AL",
+                "id": 990148,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ibrahim Aliyu",
                 "shortName": "I. Aliyu",
                 "position": "M",
                 "country": "NG",
-                "id": 982466
+                "id": 982466,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mateo Mari\u0107",
                 "shortName": "M. Mari\u0107",
                 "position": "M",
                 "country": "BA",
-                "id": 858501
+                "id": 858501,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Frane Vojkovi\u0107",
                 "shortName": "F. Vojkovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 283845
+                "id": 283845,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mate Male\u0161",
                 "shortName": "M. Male\u0161",
                 "position": "M",
                 "country": "HR",
-                "id": 53862
+                "id": 53862,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Albion Marku",
                 "shortName": "A. Marku",
                 "position": "M",
                 "country": "AL",
-                "id": 1023376
+                "id": 1023376,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Oliver Petrak",
                 "shortName": "O. Petrak",
                 "position": "M",
                 "country": "HR",
-                "id": 127711
+                "id": 127711,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Abdoulaye Yahaya",
                 "shortName": "A. Yahaya",
                 "position": "M",
                 "country": "CM",
-                "id": 1103214
+                "id": 1103214,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Raul Florucz",
                 "shortName": "R. Florucz",
                 "position": "M",
                 "country": "AT",
-                "id": 1022491
+                "id": 1022491,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Silvio Gori\u010dan",
                 "shortName": "S. Gori\u010dan",
                 "position": "M",
                 "country": "HR",
-                "id": 1003397
+                "id": 1003397,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Daj\u010der",
                 "shortName": "L. Daj\u010der",
                 "position": "M",
                 "country": "HR",
-                "id": 1064398
+                "id": 1064398,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Pivari\u0107",
                 "shortName": "J. Pivari\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 70623
+                "id": 70623,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Branimir Cipeti\u0107",
                 "shortName": "B. Cipeti\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 914217
+                "id": 914217,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jon Mersinaj",
                 "shortName": "J. Mersinaj",
                 "position": "D",
                 "country": "AL",
-                "id": 943132
+                "id": 943132,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Justin De Haas",
                 "shortName": "J. D. Haas",
                 "position": "D",
                 "country": "NL",
-                "id": 876255
+                "id": 876255,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Nikola Soldo",
                 "shortName": "N. Soldo",
                 "position": "D",
                 "country": "HR",
-                "id": 991290
+                "id": 991290,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Mili\u0107evi\u0107",
                 "shortName": "I. Mili\u0107evi\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 878101
+                "id": 878101,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario Musa",
                 "shortName": "M. Musa",
                 "position": "D",
                 "country": "HR",
-                "id": 70638
-            },
-            {
-                "name": "Hajdin Salihu",
-                "shortName": "H. Salihu",
-                "position": "D",
-                "country": "AL",
-                "id": 1005925
+                "id": 70638,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kemal Osmankovi\u0107",
                 "shortName": "K. Osmankovi\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 357622
+                "id": 357622,
+                "active": true,
+                "transfers": []
             },
             {
-                "name": "Ivan \u010celikovi\u0107",
-                "shortName": "I. \u010celikovi\u0107",
+                "name": "Hajdin Salihu",
+                "shortName": "H. Salihu",
                 "position": "D",
-                "country": "HR",
-                "id": 117682
+                "country": "AL",
+                "id": 1005925,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Theo Barbet",
+                "shortName": "T. Barbet",
+                "position": "D",
+                "country": "FR",
+                "id": 911846,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stipo Markovi\u0107",
                 "shortName": "S. Markovi\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 245569
+                "id": 245569,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Edis Maliki",
                 "shortName": "E. Maliki",
                 "position": "D",
                 "country": "MK",
-                "id": 331129
+                "id": 331129,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Basar",
                 "shortName": "L. Basar",
                 "position": "D",
                 "country": "HR",
-                "id": 1003572
+                "id": 1003572,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Nevisti\u0107",
                 "shortName": "I. Nevisti\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 357582
+                "id": 357582,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Lokomotiva",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
             },
             {
                 "name": "Luka Matasovi\u0107",
                 "shortName": "L. Matasovi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 962140
+                "id": 962140,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Kr\u0161evan Santini",
                 "shortName": "K. Santini",
                 "position": "G",
                 "country": "HR",
-                "id": 65304
+                "id": 65304,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Krunoslav Hendija",
                 "shortName": "K. Hendija",
                 "position": "G",
                 "country": "HR",
-                "id": 805726
+                "id": 805726,
+                "active": true,
+                "transfers": []
             },
             {
-                "name": "Albion Marku",
-                "shortName": "A. Marku",
-                "position": "N/A",
-                "country": "N/A",
-                "id": 1069274
+                "name": "Ivan \u010celikovi\u0107",
+                "shortName": "I. \u010celikovi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 117682,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Lokomotiva",
+                        "transferTo": "NK Jarun",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
             }
         ],
         "2029": [
@@ -1390,196 +1983,303 @@
                 "shortName": "A. Marin",
                 "position": "F",
                 "country": "HR",
-                "id": 879722
+                "id": 879722,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "\u0160ibenik",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Marin Jakoli\u0161",
                 "shortName": "M. Jakoli\u0161",
                 "position": "F",
                 "country": "HR",
-                "id": 319149
+                "id": 319149,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Hajduk",
+                        "transferTo": "\u0160ibenik",
+                        "transferTimestamp": 1626912000
+                    }
+                ]
+            },
+            {
+                "name": "Ivan Deli\u0107",
+                "shortName": "I. Deli\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 822505,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "\u0160ibenik",
+                        "transferTimestamp": 1626048000
+                    }
+                ]
             },
             {
                 "name": "Ignacio Bailone",
                 "shortName": "I. Bailone",
                 "position": "F",
                 "country": "AR",
-                "id": 359028
+                "id": 359028,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Alexander Cvetkovic",
                 "shortName": "A. Cvetkovic",
                 "position": "F",
                 "country": "EN",
-                "id": 888934
-            },
-            {
-                "name": "Edin Julard\u017eija",
-                "shortName": "E. Julard\u017eija",
-                "position": "M",
-                "country": "HR",
-                "id": 916186
-            },
-            {
-                "name": "Ivan Deli\u0107",
-                "shortName": "I. Deli\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 822505
+                "id": 888934,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Christopher Attys",
                 "shortName": "C. Attys",
                 "position": "M",
                 "country": "FR",
-                "id": 986356
+                "id": 986356,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antonio Jakoli\u0161",
                 "shortName": "A. Jakoli\u0161",
                 "position": "M",
                 "country": "HR",
-                "id": 51157
+                "id": 51157,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Mo\u010dini\u0107",
                 "shortName": "I. Mo\u010dini\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 189959
+                "id": 189959,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Niko Rak",
                 "shortName": "N. Rak",
                 "position": "M",
                 "country": "HR",
-                "id": 1048837
+                "id": 1048837,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Suad Sahiti",
                 "shortName": "S. Sahiti",
                 "position": "M",
                 "country": "XK",
-                "id": 797920
+                "id": 797920,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario \u0106uri\u0107",
                 "shortName": "M. \u0106uri\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 897600
+                "id": 897600,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stipe Ba\u010deli\u0107-Grgi\u0107",
                 "shortName": "S. Ba\u010deli\u0107-Grgi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 70298
+                "id": 70298,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "\u0160ibenik",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Adam Beni\u0107",
                 "shortName": "A. Beni\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 995774
+                "id": 995774,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Cristhian Mena",
                 "shortName": "C. Mena",
                 "position": "M",
                 "country": "CO",
-                "id": 1114196
+                "id": 1114196,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Jose Lopez",
                 "shortName": "J. Lopez",
                 "position": "M",
                 "country": "CO",
-                "id": 1131930
+                "id": 1131930,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Sandesh Jhingan",
                 "shortName": "S. Jhingan",
                 "position": "D",
                 "country": "IN",
-                "id": 875824
+                "id": 875824,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Juan Mesa",
                 "shortName": "J. Mesa",
                 "position": "D",
                 "country": "CO",
-                "id": 879392
+                "id": 879392,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivica Batarelo",
                 "shortName": "I. Batarelo",
                 "position": "D",
                 "country": "HR",
-                "id": 966477
+                "id": 966477,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Cole Dasilva",
                 "shortName": "C. Dasilva",
                 "position": "D",
                 "country": "WA",
-                "id": 920401
+                "id": 920401,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Kvesi\u0107",
                 "shortName": "J. Kvesi\u0107",
                 "position": "D",
                 "country": "BA",
-                "id": 57989
+                "id": 57989,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Karlo Bili\u0107",
                 "shortName": "K. Bili\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 848540
+                "id": 848540,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Boris Pand\u017ea",
                 "shortName": "B. Pand\u017ea",
                 "position": "D",
                 "country": "BA",
-                "id": 947987
+                "id": 947987,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Stefan Peri\u0107",
+                "shortName": "S. Peri\u0107",
+                "position": "D",
+                "country": "AT",
+                "id": 319181,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marcos Mina",
                 "shortName": "M. Mina",
                 "position": "D",
                 "country": "CO",
-                "id": 1098198
+                "id": 1098198,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Doni Grdi\u0107",
                 "shortName": "D. Grdi\u0107",
                 "position": "D",
                 "country": "AU",
-                "id": 1048836
-            },
-            {
-                "name": "Ante Bolan\u010da",
-                "shortName": "A. Bolan\u010da",
-                "position": "D",
-                "country": "HR",
-                "id": 1069787
+                "id": 1048836,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lovre Rogi\u0107",
                 "shortName": "L. Rogi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 947899
+                "id": 947899,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antonio \u0110akovi\u0107",
                 "shortName": "A. \u0110akovi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 954020
+                "id": 954020,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Yordy Bedoya",
+                "shortName": "Y. Bedoya",
+                "position": "M",
+                "country": "CO",
+                "id": 1116585,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Jose Alejandro Lopez Mejia",
+                "shortName": "J. A. L. Mejia",
+                "position": "M",
+                "country": "CO",
+                "id": 1127494,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Edin Julard\u017eija",
+                "shortName": "E. Julard\u017eija",
+                "position": "M",
+                "country": "HR",
+                "id": 916186,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Ante Bolan\u010da",
+                "shortName": "A. Bolan\u010da",
+                "position": "D",
+                "country": "HR",
+                "id": 1069787,
+                "active": true,
+                "transfers": []
             }
         ],
         "25529": [
@@ -1588,224 +2288,390 @@
                 "shortName": "H. Band\u00e9",
                 "position": "F",
                 "country": "BF",
-                "id": 886227
+                "id": 886227,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dion Drena Beljo",
                 "shortName": "D. D. Beljo",
                 "position": "F",
                 "country": "HR",
-                "id": 995773
+                "id": 995773,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Osijek",
+                        "transferTo": "Istra",
+                        "transferTimestamp": 1626220800
+                    }
+                ]
             },
             {
                 "name": "Mateo Lisica",
                 "shortName": "M. Lisica",
                 "position": "F",
                 "country": "HR",
-                "id": 1034543
+                "id": 1034543,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Osijek",
+                        "transferTo": "Istra",
+                        "transferTimestamp": 1626220800
+                    }
+                ]
             },
             {
                 "name": "Miroslav Ili\u010di\u0107",
                 "shortName": "M. Ili\u010di\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 845070
+                "id": 845070,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "Istra",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Serder Serderov",
                 "shortName": "S. Serderov",
                 "position": "F",
                 "country": "RU",
-                "id": 138451
-            },
-            {
-                "name": "Gedeon Guzina",
-                "shortName": "G. Guzina",
-                "position": "F",
-                "country": "BA",
-                "id": 859209
+                "id": 138451,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Robbie Burton",
                 "shortName": "R. Burton",
                 "position": "M",
                 "country": "WA",
-                "id": 970367
+                "id": 970367,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Istra",
+                        "transferTimestamp": 1629504000
+                    }
+                ]
             },
             {
                 "name": "Abdallahi Mahmoud",
                 "shortName": "A. Mahmoud",
                 "position": "M",
                 "country": "MR",
-                "id": 1009623
+                "id": 1009623,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Robert Mi\u0161kovi\u0107",
                 "shortName": "R. Mi\u0161kovi\u0107",
                 "position": "M",
                 "country": "DE",
-                "id": 933787
+                "id": 933787,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Slavko Blagojevi\u0107",
                 "shortName": "S. Blagojevi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 117653
-            },
-            {
-                "name": "Facundo C\u00e1seres",
-                "shortName": "F. C\u00e1seres",
-                "position": "M",
-                "country": "N/A",
-                "id": 989837
+                "id": 117653,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antonio Ivan\u010di\u0107",
                 "shortName": "A. Ivan\u010di\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 886854
+                "id": 886854,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Bibi\u0107",
                 "shortName": "M. Bibi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 1008696
-            },
-            {
-                "name": "Frano Mlinar",
-                "shortName": "F. Mlinar",
-                "position": "M",
-                "country": "HR",
-                "id": 108031
+                "id": 1008696,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Toni Buri\u0107",
                 "shortName": "T. Buri\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 926295
+                "id": 926295,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Frano Mlinar",
+                "shortName": "F. Mlinar",
+                "position": "M",
+                "country": "HR",
+                "id": 108031,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "Istra",
+                        "transferTimestamp": 1625097600
+                    }
+                ]
             },
             {
                 "name": "Antonio Perera Calderon",
                 "shortName": "A. P. Calderon",
                 "position": "M",
                 "country": "ES",
-                "id": 869746
+                "id": 869746,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Branko \u0110uki\u0107",
+                "shortName": "B. \u0110uki\u0107",
+                "position": "M",
+                "country": "BA",
+                "id": 1063097,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Damjan Dani\u010di\u0107",
                 "shortName": "D. Dani\u010di\u0107",
                 "position": "D",
                 "country": "RS",
-                "id": 990141
+                "id": 990141,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Petar Bosan\u010di\u0107",
                 "shortName": "P. Bosan\u010di\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 788960
-            },
-            {
-                "name": "Jo\u00e3o Silva",
-                "shortName": "J. Silva",
-                "position": "D",
-                "country": "PT",
-                "id": 1068519
+                "id": 788960,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Hujber",
                 "shortName": "L. Hujber",
                 "position": "D",
                 "country": "HR",
-                "id": 882582
+                "id": 882582,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Jo\u00e3o Silva",
+                "shortName": "J. Silva",
+                "position": "D",
+                "country": "PT",
+                "id": 1068519,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "Alav\u00e9s",
+                        "transferTimestamp": 1625443200
+                    }
+                ]
             },
             {
                 "name": "Bernardo Mati\u0107",
                 "shortName": "B. Mati\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 233652
+                "id": 233652,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mauro Perkovi\u0107",
                 "shortName": "M. Perkovi\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 1048923
+                "id": 1048923,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Einar Galilea",
                 "shortName": "E. Galilea",
                 "position": "D",
                 "country": "ES",
-                "id": 344797
+                "id": 344797,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Marin",
                 "shortName": "L. Marin",
                 "position": "D",
                 "country": "HR",
-                "id": 839917
+                "id": 839917,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Rafa Navarro",
                 "shortName": "R. Navarro",
                 "position": "D",
                 "country": "ES",
-                "id": 847785
+                "id": 847785,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Erhun Obanor",
                 "shortName": "E. Obanor",
                 "position": "D",
                 "country": "NG",
-                "id": 850593
+                "id": 850593,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Josip Toma\u0161evi\u0107",
                 "shortName": "J. Toma\u0161evi\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 808498
+                "id": 808498,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "David Legovic",
                 "shortName": "D. Legovic",
                 "position": "D",
                 "country": "HR",
-                "id": 1117444
+                "id": 1117444,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Gonzalo Collao",
                 "shortName": "G. Collao",
                 "position": "G",
                 "country": "CL",
-                "id": 847130
+                "id": 847130,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Lu\u010di\u0107",
                 "shortName": "I. Lu\u010di\u0107",
                 "position": "G",
                 "country": "AT",
-                "id": 244785
+                "id": 244785,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lovro Majki\u0107",
                 "shortName": "L. Majki\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 887800
+                "id": 887800,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Lovro Juric",
                 "shortName": "L. Juric",
                 "position": "G",
                 "country": "HR",
-                "id": 897595
+                "id": 897595,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Jan Paus-Kun\u0161t",
+                "shortName": "J. Paus-Kun\u0161t",
+                "position": "G",
+                "country": "HR",
+                "id": 1083221,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "NK Karlovac 1919",
+                        "transferTimestamp": 1628553600
+                    }
+                ]
+            },
+            {
+                "name": "Fran Vujnovi\u0107",
+                "shortName": "F. Vujnovi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 1130125,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "NK Karlovac 1919",
+                        "transferTimestamp": 1628553600
+                    }
+                ]
+            },
+            {
+                "name": "Antonio Siljan",
+                "shortName": "A. Siljan",
+                "position": "M",
+                "country": "HR",
+                "id": 1130127,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "NK Karlovac 1919",
+                        "transferTimestamp": 1628553600
+                    }
+                ]
+            },
+            {
+                "name": "Mihael Rovis",
+                "shortName": "M. Rovis",
+                "position": "M",
+                "country": "HR",
+                "id": 1091870,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "NK Karlovac 1919",
+                        "transferTimestamp": 1628553600
+                    }
+                ]
+            },
+            {
+                "name": "Facundo C\u00e1seres",
+                "shortName": "F. C\u00e1seres",
+                "position": "M",
+                "country": "N/A",
+                "id": 989837,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Istra",
+                        "transferTo": "NK Karlovac 1919",
+                        "transferTimestamp": 1628553600
+                    }
+                ]
             }
         ],
         "2042": [
@@ -1814,436 +2680,701 @@
                 "shortName": "I. Krstanovi\u0107",
                 "position": "F",
                 "country": "BA",
-                "id": 51242
+                "id": 51242,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Nedim Had\u017ei\u0107",
                 "shortName": "N. Had\u017ei\u0107",
                 "position": "F",
                 "country": "BA",
-                "id": 882731
+                "id": 882731,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marin Lau\u0161i\u0107",
                 "shortName": "M. Lau\u0161i\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 1048780
+                "id": 1048780,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mateo Monjac",
                 "shortName": "M. Monjac",
                 "position": "F",
                 "country": "HR",
-                "id": 792156
-            },
-            {
-                "name": "Franck Etoundi",
-                "shortName": "F. Etoundi",
-                "position": "F",
-                "country": "CM",
-                "id": 107026
+                "id": 792156,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mihael Mlinaric",
                 "shortName": "M. Mlinaric",
                 "position": "F",
                 "country": "HR",
-                "id": 1048919
+                "id": 1048919,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Gorica",
+                        "transferTo": "Slaven",
+                        "transferTimestamp": 1625184000
+                    }
+                ]
             },
             {
                 "name": "Lovro Zvonarek",
                 "shortName": "L. Zvonarek",
                 "position": "M",
                 "country": "HR",
-                "id": 1120914
+                "id": 1120914,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Hansel Zapata",
+                "shortName": "H. Zapata",
+                "position": "M",
+                "country": "CO",
+                "id": 863325,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bruno Bogojevi\u0107",
                 "shortName": "B. Bogojevi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 852471
+                "id": 852471,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Nemanja Glav\u010di\u0107",
                 "shortName": "N. Glav\u010di\u0107",
                 "position": "M",
                 "country": "RS",
-                "id": 799037
-            },
-            {
-                "name": "Bruno Goda",
-                "shortName": "B. Goda",
-                "position": "M",
-                "country": "HR",
-                "id": 855908
+                "id": 799037,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Arijan Brkovi\u0107",
                 "shortName": "A. Brkovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 935054
+                "id": 935054,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Mihail Caimacov",
+                "shortName": "M. Caimacov",
+                "position": "M",
+                "country": "MD",
+                "id": 884871,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario Marina",
                 "shortName": "M. Marina",
                 "position": "M",
                 "country": "BA",
-                "id": 110436
-            },
-            {
-                "name": "Tin Petri\u010di\u0107",
-                "shortName": "T. Petri\u010di\u0107",
-                "position": "M",
-                "country": "HR",
-                "id": 1105245
+                "id": 110436,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Matija Vuic",
                 "shortName": "M. Vuic",
                 "position": "M",
                 "country": "HR",
-                "id": 1122503
+                "id": 1122503,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Blendi Morina",
                 "shortName": "B. Morina",
                 "position": "M",
                 "country": "XK",
-                "id": 1005914
+                "id": 1005914,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Vinko Soldo",
                 "shortName": "V. Soldo",
                 "position": "D",
                 "country": "HR",
-                "id": 814879
+                "id": 814879,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "Slaven",
+                        "transferTimestamp": 1626134400
+                    }
+                ]
             },
             {
                 "name": "Franjo Prce",
                 "shortName": "F. Prce",
                 "position": "D",
                 "country": "HR",
-                "id": 190427
+                "id": 190427,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antonio Bosec",
                 "shortName": "A. Bosec",
                 "position": "D",
                 "country": "HR",
-                "id": 845373
+                "id": 845373,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Ikouwem Udo Utin",
+                "shortName": "I. U. Utin",
+                "position": "D",
+                "country": "NG",
+                "id": 982437,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Damian van Bruggen",
                 "shortName": "D. v. Bruggen",
                 "position": "D",
                 "country": "NL",
-                "id": 285991
+                "id": 285991,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Matko Zirdum",
                 "shortName": "M. Zirdum",
                 "position": "D",
                 "country": "HR",
-                "id": 920026
+                "id": 920026,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Alen Grgi\u0107",
+                "shortName": "A. Grgi\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 344177,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Osijek",
+                        "transferTo": "Slaven",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
             },
             {
                 "name": "Filip Hlevnjak",
                 "shortName": "F. Hlevnjak",
                 "position": "D",
                 "country": "HR",
-                "id": 880740
+                "id": 880740,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Goran Paracki",
                 "shortName": "G. Paracki",
                 "position": "D",
                 "country": "HR",
-                "id": 70423
+                "id": 70423,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Tomislav Bo\u017ei\u0107",
                 "shortName": "T. Bo\u017ei\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 55359
-            },
-            {
-                "name": "Gonzalo Gamarra",
-                "shortName": "G. Gamarra",
-                "position": "D",
-                "country": "AR",
-                "id": 905493
+                "id": 55359,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mateo Kocijan",
                 "shortName": "M. Kocijan",
                 "position": "D",
                 "country": "HR",
-                "id": 1063394
+                "id": 1063394,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bruno \u010covo",
                 "shortName": "B. \u010covo",
                 "position": "D",
                 "country": "HR",
-                "id": 1032275
+                "id": 1032275,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko \u010covo",
                 "shortName": "M. \u010covo",
                 "position": "D",
                 "country": "HR",
-                "id": 970507
+                "id": 970507,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan \u010covi\u0107",
                 "shortName": "I. \u010covi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 51188
+                "id": 51188,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Susak",
                 "shortName": "I. Susak",
                 "position": "G",
                 "country": "HR",
-                "id": 921539
+                "id": 921539,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Antun Markovi\u0107",
                 "shortName": "A. Markovi\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 255141
+                "id": 255141,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Bruno Goda",
+                "shortName": "B. Goda",
+                "position": "M",
+                "country": "HR",
+                "id": 855908,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Karlo Luli\u0107",
+                "shortName": "K. Luli\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 283851,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "Frosinone",
+                        "transferTimestamp": 1630281600
+                    }
+                ]
+            },
+            {
+                "name": "T\u00f6rles Kn\u00f6ll",
+                "shortName": "T. Kn\u00f6ll",
+                "position": "F",
+                "country": "DE",
+                "id": 902370,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "T\u00fcrkg\u00fcc\u00fc-M\u00fcnchen",
+                        "transferTimestamp": 1630195200
+                    }
+                ]
+            },
+            {
+                "name": "Tomislav Srbljinovi\u0107",
+                "shortName": "T. Srbljinovi\u0107",
+                "position": "M",
+                "country": "HR",
+                "id": 901210,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Slaven",
+                        "transferTo": "Rude\u0161",
+                        "transferTimestamp": 1628726400
+                    }
+                ]
             }
         ],
         "2028": [
             {
-                "name": "Mario Veljaca",
-                "shortName": "M. Veljaca",
+                "name": "Mario Velja\u010da",
+                "shortName": "M. Velja\u010da",
                 "position": "F",
                 "country": "HR",
-                "id": 1020922
+                "id": 1020922,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Viduka",
                 "shortName": "L. Viduka",
                 "position": "F",
                 "country": "HR",
-                "id": 857492
+                "id": 857492,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Tomislav \u0160trkalj",
                 "shortName": "T. \u0160trkalj",
                 "position": "F",
                 "country": "HR",
-                "id": 798865
+                "id": 798865,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Karlo Peri\u0107",
                 "shortName": "K. Peri\u0107",
                 "position": "F",
                 "country": "HR",
-                "id": 979368
-            },
-            {
-                "name": "Vinko Petkovi\u0107",
-                "shortName": "V. Petkovi\u0107",
-                "position": "F",
-                "country": "HR",
-                "id": 808543
+                "id": 979368,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Tomislav Tur\u010din",
                 "shortName": "T. Tur\u010din",
                 "position": "F",
                 "country": "HR",
-                "id": 808503
+                "id": 808503,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Rijeka",
+                        "transferTo": "Dragovoljac",
+                        "transferTimestamp": 1628035200
+                    }
+                ]
+            },
+            {
+                "name": "Vinko Petkovi\u0107",
+                "shortName": "V. Petkovi\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 808543,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Skansi",
                 "shortName": "I. Skansi",
                 "position": "F",
                 "country": "HR",
-                "id": 863312
+                "id": 863312,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "D\u017eenan Mu\u010di\u0107",
                 "shortName": "D. Mu\u010di\u0107",
                 "position": "F",
                 "country": "ME",
-                "id": 1112606
+                "id": 1112606,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Patrice Zoungrana",
                 "shortName": "P. Zoungrana",
                 "position": "M",
                 "country": "BF",
-                "id": 155742
+                "id": 155742,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Domagoj Babin",
                 "shortName": "D. Babin",
                 "position": "M",
                 "country": "HR",
-                "id": 948139
+                "id": 948139,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Valentino Majstorovi\u0107",
                 "shortName": "V. Majstorovic",
                 "position": "M",
                 "country": "HR",
-                "id": 536820
+                "id": 536820,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Benedik Mio\u010d",
                 "shortName": "B. Mio\u010d",
                 "position": "M",
                 "country": "HR",
-                "id": 314336
+                "id": 314336,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Bruno Karoglan",
                 "shortName": "B. Karoglan",
                 "position": "M",
                 "country": "HR",
-                "id": 849318
+                "id": 849318,
+                "active": true,
+                "transfers": [
+                    {
+                        "transferFrom": "Lokomotiva",
+                        "transferTo": "Dragovoljac",
+                        "transferTimestamp": 1626048000
+                    }
+                ]
             },
             {
                 "name": "Ivan Mami\u0107",
                 "shortName": "I. Mami\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 1062989
+                "id": 1062989,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Luka Pasari\u010dek",
                 "shortName": "L. Pasari\u010dek",
                 "position": "M",
                 "country": "HR",
-                "id": 357590
+                "id": 357590,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ivan Roca",
                 "shortName": "I. Roca",
                 "position": "M",
                 "country": "HR",
-                "id": 849316
+                "id": 849316,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko Ba\u0161i\u0107",
                 "shortName": "M. Ba\u0161i\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 991390
+                "id": 991390,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Leon-Habib Ernst",
                 "shortName": "L. Ernst",
                 "position": "M",
                 "country": "HR",
-                "id": 979113
+                "id": 979113,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Fran Fijan Belo\u0161a",
                 "shortName": "F. F. Belo\u0161a",
                 "position": "M",
                 "country": "HR",
-                "id": 1103103
+                "id": 1103103,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Petar Turkovi\u0107",
                 "shortName": "P. Turkovi\u0107",
                 "position": "M",
                 "country": "HR",
-                "id": 960428
+                "id": 960428,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Tin Hrvoj",
                 "shortName": "T. Hrvoj",
                 "position": "D",
                 "country": "HR",
-                "id": 880749
+                "id": 880749,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Andrej Luki\u0107",
                 "shortName": "A. Luki\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 284843
-            },
-            {
-                "name": "Jakov Ba\u0161i\u0107",
-                "shortName": "J. Ba\u0161i\u0107",
-                "position": "D",
-                "country": "HR",
-                "id": 978294
+                "id": 284843,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Marko \u0106osi\u0107",
                 "shortName": "M. \u0106osi\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 366848
+                "id": 366848,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Ricardo Bagadur",
                 "shortName": "R. Bagadur",
                 "position": "D",
                 "country": "HR",
-                "id": 353290
+                "id": 353290,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Tomislav Valenti\u0107",
                 "shortName": "T. Valenti\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 869707
+                "id": 869707,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Stipe Vuliki\u0107",
                 "shortName": "S. Vuliki\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 1020921
-            },
-            {
-                "name": "Nue Nreca",
-                "shortName": "N. Nreca",
-                "position": "D",
-                "country": "XK",
-                "id": 1133727
+                "id": 1020921,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Martin Frani\u0107",
                 "shortName": "M. Frani\u0107",
                 "position": "D",
                 "country": "HR",
-                "id": 886851
+                "id": 886851,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Dominik Ivki\u010d",
                 "shortName": "D. Ivki\u010d",
                 "position": "D",
                 "country": "SI",
-                "id": 827346
+                "id": 827346,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Zvonimir \u0160ubari\u0107",
                 "shortName": "Z. \u0160ubari\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 808495
+                "id": 808495,
+                "active": true,
+                "transfers": []
             },
             {
                 "name": "Mario Mari\u0107",
                 "shortName": "M. Mari\u0107",
                 "position": "G",
                 "country": "HR",
-                "id": 925978
+                "id": 925978,
+                "active": true,
+                "transfers": []
+            },
+            {
+                "name": "Mateo Brodaric",
+                "shortName": "M. Brodaric",
+                "position": "N/A",
+                "country": "HR",
+                "id": 1086359,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dinamo",
+                        "transferTo": "NK Trnje",
+                        "transferTimestamp": 1628035200
+                    }
+                ]
+            },
+            {
+                "name": "Jakov Ba\u0161i\u0107",
+                "shortName": "J. Ba\u0161i\u0107",
+                "position": "D",
+                "country": "HR",
+                "id": 978294,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Rude\u0161",
+                        "transferTimestamp": 1630368000
+                    }
+                ]
+            },
+            {
+                "name": "Danovis Mart\u00ednez Caliz",
+                "shortName": "D. M. Caliz",
+                "position": "M",
+                "country": "CO",
+                "id": 1048729,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Sesvete",
+                        "transferTimestamp": 1629417600
+                    }
+                ]
+            },
+            {
+                "name": "Nue Nreca",
+                "shortName": "N. Nreca",
+                "position": "D",
+                "country": "XK",
+                "id": 1133727,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Sesvete",
+                        "transferTimestamp": 1629417600
+                    }
+                ]
+            },
+            {
+                "name": "Martin Sekuli\u0107",
+                "shortName": "M. Sekuli\u0107",
+                "position": "F",
+                "country": "HR",
+                "id": 951290,
+                "active": false,
+                "transfers": [
+                    {
+                        "transferFrom": "Dragovoljac",
+                        "transferTo": "Rude\u0161",
+                        "transferTimestamp": 1628726400
+                    }
+                ]
             }
         ]
     }

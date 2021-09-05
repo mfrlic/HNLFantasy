@@ -52,8 +52,12 @@
                 background: var(--primary);
             }
 
-            table tr {
+            #main tr {
                 color: #fff;
+            }
+
+            #main tr.disabled td {
+                background-color: #ec008c;
             }
         </style>
 
@@ -72,6 +76,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                {% if current_user.is_authenticated %}
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="#"> Moj tim </a></li>
@@ -81,6 +86,7 @@
                         <li class="nav-item"><a class="nav-link" href="#"> Raspored </a></li>
                     </ul>
                 </div>
+                {% endif %}
             </div>
         </nav>
 

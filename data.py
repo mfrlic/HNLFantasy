@@ -1,6 +1,9 @@
-import requests
-import json
-import urllib.request
+import requests, json, urllib.request
+from datetime import date
+
+seasonStartDate = date(2021, 7, 1)
+clubs = ["Dinamo", "Dragovoljac", "Gorica", "Hajduk", "Istra", "Lokomotiva", "Osijek", "Rijeka", "Slaven", "\u0160ibenik"]
+clubIds = {"Dinamo": 2032, "Dragovoljac": 2028, "Gorica": 43917, "Hajduk": 2036, "Istra": 25529, "Lokomotiva": 36246, "Osijek": 2040, "Rijeka": 2039, "Slaven": 2042, "\u0160ibenik": 2029}
 
 def get_teams_data():
     teams = { "teams": [] }
@@ -54,6 +57,8 @@ def get_player_data():
         for player in data:
             try: 
                 position = player["player"]["position"]
+                if position != "G" and position != "D" and position != "M" and position != "F":
+                    position = "N/A"
             except:
                 position = "N/A"
 
@@ -112,6 +117,11 @@ def get_point_data():
     lineups = { "lineups": {} }
 
     for match in matches["matches"]:
+        playerArr = []
+        for team in teams["teams"]:
+            for player in players["players"][str(team["id"])]:
+                playerArr.append(player["id"])
+
         data = requests.get("https://api.sofascore.com/api/v1/event/" + str(match["id"]) + "/lineups").json()
         lineups["lineups"][str(match["id"])] = { "home": [], "away": [] }
         for player in data["home"]["players"]:
@@ -136,6 +146,50 @@ def get_point_data():
                                                                         "minutesPlayed": minutesPlayed, 
                                                                         "substitute": player["substitute"] })
 
+            if player["player"]["id"] not in playerArr:
+                dataPlayer = requests.get("https://api.sofascore.com/api/v1/player/" + str(player["player"]["id"])).json()
+                try: 
+                    position = dataPlayer["player"]["position"]
+                    if position != "G" and position != "D" and position != "M" and position != "F":
+                        position = "N/A"
+                except:
+                    position = "N/A"
+                try: 
+                    country = dataPlayer["player"]["country"]["alpha2"]
+                except:
+                    country = "N/A"
+
+                if(dataPlayer["player"]["team"]["shortName"] in clubs):
+                    players["players"][str(dataPlayer["player"]["team"]["id"])].append({
+                                                                        "name": dataPlayer["player"]["name"], 
+                                                                        "shortName": player["player"]["shortName"], 
+                                                                        "position": position,
+                                                                        "country": country, 
+                                                                        "id": dataPlayer["player"]["id"] 
+                                                                        })
+                else:
+                    try:
+                        dataTransfers = requests.get("https://api.sofascore.com/api/v1/player/" + str(player["player"]["id"]) + "/transfer-history").json()["transferHistory"]
+                        for transfer in dataTransfers:
+                            if date.today() > date.fromtimestamp(transfer["transferDateTimestamp"]) >= seasonStartDate:
+                                try:
+                                    transferFrom = transfer["transferFrom"]["shortName"]
+                                    transferTo = transfer["transferTo"]["shortName"]
+                                    if transferFrom in clubs and transferTo not in clubs:
+                                        players["players"][str(clubIds[transferFrom])].append({
+                                                                            "name": dataPlayer["player"]["name"], 
+                                                                            "shortName": player["player"]["shortName"], 
+                                                                            "position": position,
+                                                                            "country": country, 
+                                                                            "id": dataPlayer["player"]["id"] 
+                                                                            })
+                                except:
+                                    pass
+                    except: 
+                        pass
+
+                playerArr.append(player["player"]["id"])
+
         for player in data["away"]["players"]:
 
             try:
@@ -157,6 +211,53 @@ def get_point_data():
                     lineups["lineups"][str(match["id"])]["away"].append({ "id": player["player"]["id"], 
                                                                         "minutesPlayed": minutesPlayed, 
                                                                         "substitute": player["substitute"] })
+
+            if player["player"]["id"] not in playerArr:
+                dataPlayer = requests.get("https://api.sofascore.com/api/v1/player/" + str(player["player"]["id"])).json()
+                try: 
+                    position = dataPlayer["player"]["position"]
+                    if position != "G" and position != "D" and position != "M" and position != "F":
+                        position = "N/A"
+                except:
+                    position = "N/A"
+                try: 
+                    country = dataPlayer["player"]["country"]["alpha2"]
+                except:
+                    country = "N/A"
+
+                if(dataPlayer["player"]["team"]["shortName"] in clubs):
+                    players["players"][str(dataPlayer["player"]["team"]["id"])].append({
+                                                                        "name": dataPlayer["player"]["name"], 
+                                                                        "shortName": player["player"]["shortName"], 
+                                                                        "position": position,
+                                                                        "country": country, 
+                                                                        "id": dataPlayer["player"]["id"] 
+                                                                        })
+                else:
+                    try:
+                        dataTransfers = requests.get("https://api.sofascore.com/api/v1/player/" + str(player["player"]["id"]) + "/transfer-history").json()["transferHistory"]
+                        for transfer in dataTransfers:
+                            if date.today() > date.fromtimestamp(transfer["transferDateTimestamp"]) >= seasonStartDate:
+                                try:
+                                    transferFrom = transfer["transferFrom"]["shortName"]
+                                    transferTo = transfer["transferTo"]["shortName"]
+                                    if transferFrom in clubs and transferTo not in clubs:
+                                        players["players"][str(clubIds[transferFrom])].append({
+                                                                            "name": dataPlayer["player"]["name"], 
+                                                                            "shortName": player["player"]["shortName"], 
+                                                                            "position": position,
+                                                                            "country": country, 
+                                                                            "id": dataPlayer["player"]["id"] 
+                                                                            })
+                                except:
+                                    pass
+                    except: 
+                        pass
+
+                playerArr.append(player["player"]["id"])
+
+    with open("players.json", "w") as file:
+        json.dump(players, file, indent=4)
 
     for team in teams["teams"]:
         for player in players["players"][str(team["id"])]:
@@ -456,12 +557,49 @@ def get_point_data():
                             pointsTotal = minutesPlayedPoints + goalsPoints + assistsPoints + cardPoints + ownGoalsPoints + penaltyMissedPoints
                             points["points"][player["id"]].append({ "id": match["id"], "pointsTotal": pointsTotal, "minutesPlayed": appearance["minutesPlayed"], "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellow, "redCard": red, "cardPoints": cardPoints })
 
-
     with open("points.json", "w") as file:
         json.dump(points, file, indent=4)
 
 def get_transfer_data():
-    pass
+    with open("teams.json") as file:
+        teams = json.load(file)
+
+    with open("players.json") as file:
+        players = json.load(file)
+
+    for team in teams["teams"]:
+        for player in players["players"][str(team["id"])]:
+            transfers = []
+            player["active"] = True
+            try:
+                data = requests.get("https://api.sofascore.com/api/v1/player/" + str(player["id"]) + "/transfer-history").json()["transferHistory"]
+            except:
+                pass
+            for transfer in data:
+                if date.today() > date.fromtimestamp(transfer["transferDateTimestamp"]) >= seasonStartDate:
+                    try:
+                        transferFrom = transfer["transferFrom"]["shortName"]
+                        transferTo = transfer["transferTo"]["shortName"]
+                        timestamp = transfer["transferDateTimestamp"]
+                        if transferFrom in clubs and transferTo in clubs:
+                            transfers.append({
+                                                "transferFrom": transferFrom,
+                                                "transferTo": transferTo,
+                                                "transferTimestamp": timestamp
+                                            })
+                        if transferFrom in clubs and transferTo not in clubs:
+                            transfers.append({
+                                                "transferFrom": transferFrom,
+                                                "transferTo": transferTo,
+                                                "transferTimestamp": timestamp
+                                            })
+                            player["active"] = False
+                    except:
+                        pass
+            player["transfers"] = transfers
+
+    with open("players.json", "w") as file:
+        json.dump(players, file, indent=4)
 
 def get_final_data():
     with open("teams.json") as file:
@@ -498,6 +636,7 @@ def get_final_data():
             shortName = player["shortName"]
             position = player["position"]
             country = player["country"]
+            active = player["active"]
             club = team["name"]
             if club == "Šibenik":
                 club = "Sibenik"
@@ -571,7 +710,7 @@ def get_final_data():
                 elif position == "F":
                     playerMatches.append({ "homeTeam": homeTeam, "homeScore": homeScore, "awayTeam": awayTeam, "awayScore": awayScore, "winnerCode": winnerCode, "startTimestamp": startTimestamp, "pointsTotal": pointsTotal, "minutesPlayed": minutesPlayed, "minutesPlayedPoints": minutesPlayedPoints, "goals": goals, "goalsPoints": goalsPoints, "assists": assists, "assistsPoints": assistsPoints, "ownGoals": ownGoals, "ownGoalsPoints": ownGoalsPoints, "goalsConceded": goalsConceded, "penaltiesMissed": penaltyMissed, "penaltiesMissedPoints": penaltyMissedPoints, "yellowCard": yellowCard, "redCard": redCard, "cardPoints": cardPoints })
 
-            dataFinal["data"].append({ "id": player["id"], "name": name, "shortName": shortName, "position": position, "club": club, "country": country, "points": totalPoints, "minutesPlayed": totalMinutes, "goals": totalGoals, "assists": totalAssists, "ownGoals": totalOwnGoals, "cleanSheets": totalCleanSheets, "goalsConceded": totalGoalsConceded, "saves": totalSaves, "savedPens": totalSavedPens, "missedPens": totalMissedPens, "yellowCard": totalYellowCards, "redCard": totalRedCards,  "matches": playerMatches })
+            dataFinal["data"].append({ "id": player["id"], "name": name, "shortName": shortName, "position": position, "club": club, "active": active, "country": country, "points": totalPoints, "minutesPlayed": totalMinutes, "goals": totalGoals, "assists": totalAssists, "ownGoals": totalOwnGoals, "cleanSheets": totalCleanSheets, "goalsConceded": totalGoalsConceded, "saves": totalSaves, "savedPens": totalSavedPens, "missedPens": totalMissedPens, "yellowCard": totalYellowCards, "redCard": totalRedCards,  "matches": playerMatches })
 
     with open("web/data/data.json", "w") as file:
         json.dump(dataFinal, file, indent=4)
@@ -586,18 +725,15 @@ def get_player_images():
     for team in teams["teams"]:
         for player in players["players"][str(team["id"])]:
             try:
-                urllib.request.urlretrieve("https://api.sofascore.com/api/v1/player/" + str(player["id"]) + "/image", "web/assets/img/players/" + str(player["id"]) + ".png")
+                urllib.request.urlretrieve("https://api.sofascore.com/api/v1/player/" + str(player["id"]) + "/image", "web/static/img/players/" + str(player["id"]) + ".png")
             except:
-                urllib.request.urlretrieve("https://www.sofascore.com/static/images/placeholders/player.png", "web/assets/img/players/" + str(player["id"]) + ".png")
+                urllib.request.urlretrieve("https://www.sofascore.com/static/images/placeholders/player.png", "web/static/img/players/" + str(player["id"]) + ".png")
 
-#find a way to fetch transfers and disable players not playing anymore
 
 # get_teams_data()
 # get_match_data()
-# get_incident_data()
-# get_player_data()
-# get_lineup_data()
-# get_point_data()
-# get_transfer_data()
+get_player_data()
+get_point_data()
+get_transfer_data()
 get_final_data()
 # get_player_images()
